@@ -66,7 +66,7 @@ content:
     content:
       - layout: left
         border: weak
-        title: AlphaMaster: Comprehensive Alpha Discovery and Agent Implementation
+        title: "AlphaMaster: Comprehensive Alpha Discovery and Agent Implementation"
         link: https://github.com/yinshuo156/AlphaMaster
         link_text: GitHub Repository
         additional_links:
@@ -86,7 +86,7 @@ content:
           **Factor alignment & Alpha reports:** Developed factor alignment and filtering framework for A-shares and cryptocurrencies, implementing data cleansing, dual-chain dynamic iteration, and agent-based reporting
       - layout: left
         border: weak
-        title: TS-Agent: RL Empowered LLM Agents for Financial Time Series Forecasting
+        title: "TS-Agent: RL Empowered LLM Agents for Financial Time Series Forecasting"
         link: https://github.com/yinshuo156/TS-Agent
         link_text: GitHub Repository
         additional_links:
@@ -101,7 +101,7 @@ content:
           Improved strategy generation beyond baseline by over 10%, with strategy performance close to top-tier LLMs (e.g., DeepSeek-R1)
       - layout: left
         border: weak
-        title: ProQ: Automated Data Screening Framework for LLM Training
+        title: "ProQ: Automated Data Screening Framework for LLM Training"
         link: 
         link_text: 
         additional_links:
@@ -135,7 +135,7 @@ content:
           **Technical Implementation:** ~5k lines of code covering multifractal analysis, time series prediction, and portfolio optimization
       - layout: left
         border: weak
-        title: Kaggle Competition: Optiver Trading at the Close (Bronze Medalist)
+        title: "Kaggle Competition: Optiver Trading at the Close (Bronze Medalist)"
         link: 
         link_text: 
         additional_links:
@@ -245,7 +245,7 @@ footer_show_references: true
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/modern-resume-theme
 
 # GitHub Pages settings
 baseurl: "" # the subpath of your site, e.g. /blog

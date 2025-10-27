@@ -37,3 +37,8 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # Modern Resume Theme dependencies
 gem "jekyll-seo-tag", "~> 2.1"
+
+# Development dependencies
+group :jekyll_plugins do
+  gem "html-proofer", "~> 3.9"
+end
