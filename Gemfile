@@ -32,3 +32,6 @@ gem "jekyll-seo-tag", "~> 2.1"
 group :jekyll_plugins do
   gem "html-proofer", "~> 3.9"
 end
+
+# Add platform support to avoid warnings
+ruby ">= 2.6.0"
