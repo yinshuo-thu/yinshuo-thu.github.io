@@ -6,32 +6,32 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Shuo Yin
+title: Quantitative Researcher & AI Engineer
+email: yins25@mails.tsinghua.edu.cn
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: (+86) 15690129730
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: https://yinshuo-thu.github.io
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+twitter_username: 
+github_username: yinshuo156
+stackoverflow_username: 
+dribbble_username: 
+facebook_username: 
+flickr_username: 
+instagram_username: 
+linkedin_username: shuoyin
+xing_username: 
+pinterest_username: 
+youtube_username: 
+orcid_username: 
+googlescholar_username:
 
 # Additional icon links
 additional_links:
@@ -52,64 +52,173 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  I am a Master's student in Finance at Tsinghua University with a strong background in quantitative research and artificial intelligence. My research focuses on applying machine learning and deep learning techniques to financial markets, particularly in cross-sectional equity strategies and time series forecasting.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  With experience at leading quantitative hedge funds and tech companies, I have developed expertise in building sophisticated ML models for alpha generation, including LightGBM, neural networks, and transformer architectures. My work spans from traditional quantitative finance to cutting-edge applications of large language models and reinforcement learning in financial contexts.
+
+  I am passionate about bridging the gap between academic research and practical applications in quantitative finance, with publications in top-tier venues and active contributions to open-source projects in the intersection of AI and finance.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        border: weak
+        title: AlphaMaster: Comprehensive Alpha Discovery Framework
+        link: https://github.com/yinshuo156/AlphaMaster
+        link_text: GitHub Repository
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: GitHub Repository
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: https://github.com/yinshuo156/AlphaMaster
         quote: >
-          Short overview of the project (optional)
+          Multi-source factor generation framework integrating Agents, Genetic Algorithms, and Flow Networks
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          Applied machine learning–based quantitative modeling methods to refine equity strategies (MLP, GRU, Transformer)
+          
+          • Multi-source factor generation: Integrated Agents, Genetic Algorithms, and Flow Networks to produce diversified alpha factors
+            - Flow Networks: Added structure-aware encoder with RGCN to capture mathematical relations; used flow-network exploration with dense, multi-aspect rewards
+            - Agent pipeline: Employed multi-agent discovery for interpretable, decay-resistant factors; leveraged Qlib for hypothesis formation and walk-forward backtesting
+            - Genetic algorithm: Encoded factor expressions and applied crossover/mutation; selected robust factors using quantitative metrics
+          • Factor alignment & Alpha reports: Developed factor alignment and filtering framework for A-shares and cryptocurrencies
+      - layout: left
+        border: weak
+        title: TS-Agent: RL Empowered LLM Agents for Financial Forecasting
+        link: https://github.com/yinshuo156/TS-Agent
+        link_text: GitHub Repository
+        additional_links:
+          - title: GitHub Repository
+            icon: fab fa-github
+            url: https://github.com/yinshuo156/TS-Agent
+        quote: >
+          Reinforcement learning–based agent for financial time-series forecasting with LLM-generated strategy pool
+        description: | # this will include new lines to allow paragraphs
+          Developed TS-Agent, a reinforcement learning–based agent for financial time-series forecasting, using an LLM-generated strategy pool for exploration-enhanced fine-tuning, then seeding stepwise RL from selected strategies with a custom RL module.
+          
+          Improved strategy generation beyond baseline by over 10%, with strategy performance close to top-tier LLMs (e.g., DeepSeek-R1). Currently under review at ICASSP 2025.
+      - layout: left
+        border: weak
+        title: ProQ: LLM Data Screening Optimization Framework
+        link: 
+        link_text: 
+        additional_links:
+        quote: >
+          Agent-based data screening and harmonization model for automated LLM data quality control
+        description: | # this will include new lines to allow paragraphs
+          Engineered ProQ model for automated data screening on Ling LLM; fine-tuned quality-filtering LLMs and streamlined the pipeline.
+          
+          • Data Screening Model: Built custom agent-based data screening and harmonization model (ProQ), pre-screening data using metrics like PPL and iteratively selecting representative data for fine-tuning quality-filtering models
+          • Post-trained Ling MOE Lite on ~3M optimized data, improving language understanding and code completion by over 1%
+      - layout: left
+        border: weak
+        title: BagelScore: Multimodal Consistency Evaluation
+        link: https://github.com/AIGeeksGroup/BagelScore
+        link_text: GitHub Repository
+        additional_links:
+          - title: GitHub Repository
+            icon: fab fa-github
+            url: https://github.com/AIGeeksGroup/BagelScore
+        quote: >
+          Multimodal consistency and large model image editing effectiveness evaluation method
+        description: | # this will include new lines to allow paragraphs
+          Developed BagelScore, a comprehensive evaluation framework for multimodal consistency and large model image editing effectiveness. Currently under review at ICLR 2025.
+          
+          The framework provides robust metrics for assessing the quality and consistency of multimodal AI systems, particularly in image editing applications.
+      - layout: left
+        border: weak
+        title: Kaggle Optiver Trading Competition
+        link: 
+        link_text: 
+        additional_links:
+        quote: >
+          Bronze Medalist in Optiver-Trading at the Close competition
+        description: | # this will include new lines to allow paragraphs
+          Built a LightGBM-based predictive model, forecasting Nasdaq stock closing price movements from order book and auction data.
+          
+          • Implemented purged time-series cross-validation to mitigate lookahead bias
+          • Applied hyperparameter tuning with early stopping and retrained final ensemble model
+          • Achieved Mean Absolute Error (MAE) of 5.473 on validation, earning Bronze Medal ranking
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: Lingjun Investment (AUM ¥40B Chinese Quant)
+        sub_title: Quantitative Research Intern
+        caption: Aug 2025 - Present
+        link: https://www.lingjun.com
         quote: >
-          Short description of the company (optional)
+          Leading Chinese quantitative hedge fund specializing in systematic trading strategies
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          • Machine Learning Cross-Sectional Model: Built LightGBM and MLP models to predict cross-sectional returns
+            - LightGBM: Trained on 1k+ alpha factors with rolling windows; 2021–2023 backtest (long top-30%) hit 42% AR, Sharpe 2.25, max DD −8.8%; 2025 live-simulated trading, AR 30%+ after portfolio optimization
+            - MLP: Designed and tuned MLP with rolling predictions; 2021–2023 backtest top-30% long portfolio achieved AR 48.2%, Sharpe 2.48, max drawdown −10.5%; recent live-simulated trading shows 40%+ annualized
+          • Deep Learning Time Series Strategy: Developed GRU and Transformer baselines, with MoE combination attempts
+            - GRU: Added input-projection block (Linear → LayerNorm → GELU), followed by bidirectional GRU encoder and temporal-attention pooling; loss-driven optimization improved backtest AR by 2%+ to 57%
+            - Transformer: Implemented encoder-only Transformer with linear feature mapping and sinusoidal positional encoding; baseline backtest AR 44%
+      - layout: right
+        title: Ant Group (Alipay)
+        sub_title: LLM Algorithm Intern
+        caption: Apr 2025 - Aug 2025
+        link: https://www.antgroup.com
+        quote: >
+          Leading fintech company and developer of Alipay platform
+        description: | # this will include new lines to allow paragraphs
+          • Data Screening Model: Built custom agent-based data screening and harmonization model (ProQ), pre-screening data using metrics like PPL and iteratively selecting representative data for fine-tuning quality-filtering models. Post-trained Ling MOE Lite on ~3M optimized data, improving language understanding and code completion by over 1%
+          • Signal-Based Data Filters: Developed rule- and model-based operators to identify low-quality data using targeted signals
+      - layout: right
+        title: Panoramic Hills Capital (AUM $4B Hedge Fund)
+        sub_title: Crypto Research Intern
+        caption: Jan 2025 - Mar 2025
+        link: https://www.panoramichills.com
+        quote: >
+          Global hedge fund with focus on cryptocurrency and alternative investments
+        description: | # this will include new lines to allow paragraphs
+          • NLP Sentiment Index Modeling: Built scrapers and real-time pipelines to source, aggregate, and filter crypto feeds; fine-tuned BERT sentiment model on collected data to produce index used to guide position sizing
+          • Crypto Analysis: Monitored daily crypto trends; constructed financial models for BTC miners (MARA, CLSK, RIOT, etc.)
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: Tsinghua University, School of Economics and Management
+        sub_title: Master of Finance
+        caption: Sept 2025 - Jun 2027
         quote: >
-          Short institution or course description (optional)
+          Top-tier finance program with focus on quantitative methods and fintech
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
+          Current Courses: Large Language Models and Generative AI, Financial Derivatives, Financial Data Analysis, Introduction to FinTech
+          
+          GPA: 3.75/4.0 | Merit Student Award | First Class Academic Scholarship | Outstanding Graduate
+      - layout: top-right
+        title: Shanghai Jiao Tong University, School of Biomedical Engineering
+        sub_title: Bachelor of Engineering (Electronic & Computer Eng. Track)
+        caption: Sept 2021 - Jun 2025
+        quote: >
+          Interdisciplinary program combining engineering with biomedical applications
+        description: | # this will include new lines to allow paragraphs
+          Core Courses: Data Structure (A), Methods in Mathematical Physics (A), Biostatistics (A-), Medical Robot Control (A)
+          
+          Research: Multimodal LLM (AAAI, ICLR); Financial Time Series (SCI Q2 journal); Agent, Reinforcement Learning (CCF-B conf.)
+  - title: Skills & Interests
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      **Technical Skills:**
+      - Programming Languages: Python, C++, SQL
+      - Machine Learning: LightGBM, PyTorch, TensorFlow, Scikit-learn
+      - Quantitative Finance: Qlib, PyPortfolioOpt, Alphalens, Wind Terminal
+      - Development Tools: Git, Docker, Linux/Unix
+      - Data Analysis: Pandas, NumPy, Matplotlib, Seaborn
+      - Office Tools: Excel, PowerPoint, LaTeX
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      **Languages:**
+      - English: TOEFL 108, Professional Working Proficiency
+      - Chinese: Native
+
+      **Interests & Activities:**
+      - **Basketball**: Vice Captain of College Team, Center/Power Forward position
+      - **Board Games**: Go (Weiqi) - Strategic thinking and pattern recognition
+      - **Tennis**: Recreational player, enjoys the strategic and physical aspects
+      - **Research**: Passionate about applying AI/ML to solve real-world financial problems
+      - **Open Source**: Active contributor to quantitative finance and AI projects
 
 # Footer
 footer_show_references: true
