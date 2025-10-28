@@ -52,12 +52,11 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: assets/head.jpg
 about_content: | # this will include new lines to allow paragraphs
-  
-I am currently pursuing a Master's in Finance at Tsinghua University (Class of 2027), having completed my Bachelor's degree in Engineering at Shanghai Jiao Tong University. My undergraduate academic journey spans multiple fields, including computer vision, natural language processing, and time series analysis, with publications in these areas.
+  I am currently pursuing a Master's in Finance at Tsinghua University (Class of 2027), having completed my Bachelor's degree in Engineering at Shanghai Jiao Tong University. My undergraduate academic journey spans multiple fields, including computer vision, natural language processing, and time series analysis, with publications in these areas.
 
-As a Quantitative Research Intern, I apply advanced deep learning techniques and large language models to quantitative modeling and factor discovery. My work merges cutting-edge AI research with practical financial applications, focusing on developing innovative approaches to algorithmic trading and market analysis.
+  As a Quantitative Research Intern, I apply advanced deep learning techniques and large language models to quantitative modeling and factor discovery. My work merges cutting-edge AI research with practical financial applications, focusing on developing innovative approaches to algorithmic trading and market analysis.
 
-I am open to connecting and collaborating with others in these fields. Feel free to reach out to me via WeChat (Elon\_Yin) or email at [yinelon@gmail.com](mailto:yinelon@gmail.com). For more detailed information about my background and experience, you can download my bilingual resume here: [Chinese & English Resume](assets/Resume-ShuoYin-CN:EN.pdf).
+  I am open to connecting and collaborating with others in these fields. Feel free to reach out to me via WeChat (Elon_Yin) or email at [yinelon@gmail.com](mailto:yinelon@gmail.com). For more detailed information about my background and experience, you can download my bilingual resume here: [Chinese & English Resume](assets/Resume-ShuoYin-CN:EN.pdf).
 
 
 content:
@@ -166,9 +165,9 @@ content:
         quote: >
           Jun 2025 - Sept 2025
         description: | # this will include new lines to allow paragraphs
-          Developed TS-Agent, a reinforcement learning–based agent for financial time-series forecasting, using LLM-generated strategy pool for exploration-enhanced fine-tuning, then seeding stepwise RL from selected strategies with custom RL module
+          - Developed TS-Agent, a reinforcement learning–based agent for financial time-series forecasting, using LLM-generated strategy pool for exploration-enhanced fine-tuning, then seeding stepwise RL from selected strategies with custom RL module
           
-          Improved strategy generation beyond baseline by over 10%, with strategy performance close to top-tier LLMs (e.g., DeepSeek-R1)
+          - Improved strategy generation beyond baseline by over 10%, with strategy performance close to top-tier LLMs (e.g., DeepSeek-R1)
       - layout: left
         border: weak
         title: "Revolutionizing Open Set Domain Generalization: Learning to generalize via Conditional Diffusion Without Gradient"
