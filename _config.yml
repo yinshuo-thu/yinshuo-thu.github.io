@@ -61,6 +61,75 @@ about_content: | # this will include new lines to allow paragraphs
   My technical expertise encompasses Python, C++, SQL, and various ML frameworks, with a proven track record in both academic research and industry applications. I am passionate about bridging the gap between cutting-edge AI research and practical financial applications.
 
 content:
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Tsinghua University, School of Economics and Management
+        sub_title: Master of Finance
+        caption: Sept 2025 - Jun 2027
+        quote: >
+          Beijing, China
+        description: | # this will include new lines to allow paragraphs
+          **Current Courses:** Large Language Models and Generative AI, Financial Derivatives, Financial Data Analysis, Introduction to FinTech
+          
+          **Research Focus:** Quantitative finance, algorithmic trading, and machine learning applications in financial markets
+      - layout: top-right
+        title: Shanghai Jiao Tong University, School of Biomedical Engineering
+        sub_title: Bachelor of Engineering (Electronic & Computer Eng. Track)
+        caption: Sept 2021 - Jun 2025
+        quote: >
+          Shanghai, China
+        description: | # this will include new lines to allow paragraphs
+          **GPA:** 3.75/4.0 | Merit Student Award | First Class Academic Scholarship | Outstanding Graduate
+          
+          **Core Courses:** Data Structure (A), Methods in Mathematical Physics (A), Biostatistics (A-), Medical Robot Control (A)
+          
+          **Research:** Multimodal LLM (AAAI, ICLR); Financial Time Series (SCI Q2 journal); Agent, Reinforcement Learning (CCF-B conf.)
+  - title: Internship
+    layout: list
+    content:
+      - layout: right
+        title: Lingjun Investment (AUM ¥40B Chinese Quant)
+        sub_title: Quantitative Research Intern
+        caption: Aug 2025 - Present
+        link: 
+        quote: >
+          Beijing, China
+        description: | # this will include new lines to allow paragraphs
+          **Machine Learning Cross-Sectional Model:** Built LightGBM and MLP models to predict cross-sectional returns
+          - LightGBM: Trained on 1k+ alpha factors with rolling windows; 2021–2023 backtest (long top-30%) hit 42% AR, Sharpe 2.25, max DD −8.8%; 2025 live-simulated trading, AR 30%+ after portfolio optimization
+          - MLP: Designed and tuned MLP with rolling predictions; 2021–2023 backtest top-30% long portfolio achieved AR 48.2%, Sharpe 2.48, max drawdown −10.5%; recent live-simulated trading shows 40%+ annualized
+          
+          **Deep Learning Time Series Strategy:** Developed GRU and Transformer baselines, with MoE combination attempts
+          - GRU: Added input-projection block (Linear → LayerNorm → GELU), followed by bidirectional GRU encoder and temporal-attention pooling; loss-driven optimization improved backtest AR by 2%+ to 57%
+          - Transformer: Implemented encoder-only Transformer with linear feature mapping and sinusoidal positional encoding; currently developing multi-scale temporal fusion; baseline backtest AR 44%
+      - layout: right
+        title: Ant Group (Alipay)
+        sub_title: LLM Algorithm Intern
+        caption: Apr 2025 - Aug 2025
+        link: 
+        quote: >
+          Shanghai, China
+        description: | # this will include new lines to allow paragraphs
+          Engineered ProQ model for automated data screening on Ling LLM; fine-tuned quality-filtering LLMs and streamlined the pipeline
+          
+          **Data Screening Model:** Built custom agent-based data screening and harmonization model (ProQ), pre-screening data using metrics like PPL and iteratively selecting representative data for fine-tuning quality-filtering models. Post-trained Ling MOE Lite on ~3M optimized data, improving language understanding and code completion by over 1%
+          
+          **Signal-Based Data Filters:** Developed rule- and model-based operators to identify low-quality data using targeted signals
+      - layout: right
+        title: Panoramic Hills Capital (AUM $4B Hedge Fund)
+        sub_title: Crypto Research Intern
+        caption: Jan 2025 - Mar 2025
+        link: 
+        quote: >
+          Shanghai, China
+        description: | # this will include new lines to allow paragraphs
+          Conducted crypto market monitoring and developed sentiment indices on crypto, providing insights for fund positioning
+          
+          **NLP Sentiment Index Modeling:** Built scrapers and real-time pipelines to source, aggregate, and filter crypto feeds; fine-tuned BERT sentiment model on collected data to produce index used to guide position sizing
+          
+          **Crypto Analysis:** Monitored daily crypto trends; constructed financial models for BTC miners (MARA, CLSK, RIOT, etc.)
   - title: Research & Publications
     layout: list # Type of content section (list/text)
     content:
@@ -147,75 +216,6 @@ content:
           **Technical Approach:** Implemented purged time-series cross-validation to mitigate lookahead bias, applied hyperparameter tuning with early stopping, and retrained final ensemble model
           
           **Results:** Achieved Mean Absolute Error (MAE) of 5.473 on validation, earning Bronze Medal ranking
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Lingjun Investment (AUM ¥40B Chinese Quant)
-        sub_title: Quantitative Research Intern
-        caption: Aug 2025 - Present
-        link: 
-        quote: >
-          Beijing, China
-        description: | # this will include new lines to allow paragraphs
-          **Machine Learning Cross-Sectional Model:** Built LightGBM and MLP models to predict cross-sectional returns
-          - LightGBM: Trained on 1k+ alpha factors with rolling windows; 2021–2023 backtest (long top-30%) hit 42% AR, Sharpe 2.25, max DD −8.8%; 2025 live-simulated trading, AR 30%+ after portfolio optimization
-          - MLP: Designed and tuned MLP with rolling predictions; 2021–2023 backtest top-30% long portfolio achieved AR 48.2%, Sharpe 2.48, max drawdown −10.5%; recent live-simulated trading shows 40%+ annualized
-          
-          **Deep Learning Time Series Strategy:** Developed GRU and Transformer baselines, with MoE combination attempts
-          - GRU: Added input-projection block (Linear → LayerNorm → GELU), followed by bidirectional GRU encoder and temporal-attention pooling; loss-driven optimization improved backtest AR by 2%+ to 57%
-          - Transformer: Implemented encoder-only Transformer with linear feature mapping and sinusoidal positional encoding; currently developing multi-scale temporal fusion; baseline backtest AR 44%
-      - layout: right
-        title: Ant Group (Alipay)
-        sub_title: LLM Algorithm Intern
-        caption: Apr 2025 - Aug 2025
-        link: 
-        quote: >
-          Shanghai, China
-        description: | # this will include new lines to allow paragraphs
-          Engineered ProQ model for automated data screening on Ling LLM; fine-tuned quality-filtering LLMs and streamlined the pipeline
-          
-          **Data Screening Model:** Built custom agent-based data screening and harmonization model (ProQ), pre-screening data using metrics like PPL and iteratively selecting representative data for fine-tuning quality-filtering models. Post-trained Ling MOE Lite on ~3M optimized data, improving language understanding and code completion by over 1%
-          
-          **Signal-Based Data Filters:** Developed rule- and model-based operators to identify low-quality data using targeted signals
-      - layout: right
-        title: Panoramic Hills Capital (AUM $4B Hedge Fund)
-        sub_title: Crypto Research Intern
-        caption: Jan 2025 - Mar 2025
-        link: 
-        quote: >
-          Shanghai, China
-        description: | # this will include new lines to allow paragraphs
-          Conducted crypto market monitoring and developed sentiment indices on crypto, providing insights for fund positioning
-          
-          **NLP Sentiment Index Modeling:** Built scrapers and real-time pipelines to source, aggregate, and filter crypto feeds; fine-tuned BERT sentiment model on collected data to produce index used to guide position sizing
-          
-          **Crypto Analysis:** Monitored daily crypto trends; constructed financial models for BTC miners (MARA, CLSK, RIOT, etc.)
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Tsinghua University, School of Economics and Management
-        sub_title: Master of Finance
-        caption: Sept 2025 - Jun 2027
-        quote: >
-          Beijing, China
-        description: | # this will include new lines to allow paragraphs
-          **Current Courses:** Large Language Models and Generative AI, Financial Derivatives, Financial Data Analysis, Introduction to FinTech
-          
-          **Research Focus:** Quantitative finance, algorithmic trading, and machine learning applications in financial markets
-      - layout: top-right
-        title: Shanghai Jiao Tong University, School of Biomedical Engineering
-        sub_title: Bachelor of Engineering (Electronic & Computer Eng. Track)
-        caption: Sept 2021 - Jun 2025
-        quote: >
-          Shanghai, China
-        description: | # this will include new lines to allow paragraphs
-          **GPA:** 3.75/4.0 | Merit Student Award | First Class Academic Scholarship | Outstanding Graduate
-          
-          **Core Courses:** Data Structure (A), Methods in Mathematical Physics (A), Biostatistics (A-), Medical Robot Control (A)
-          
-          **Research:** Multimodal LLM (AAAI, ICLR); Financial Time Series (SCI Q2 journal); Agent, Reinforcement Learning (CCF-B conf.)
   - title: Skills & Additional Information
     layout: text
     content: | # this will include new lines to allow paragraphs
