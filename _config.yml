@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Shuo Yin
 title: Quantitative Researcher & ML Engineer
-email: yins25@mails.tsinghua.edu.cn, yinelon@gmail.com
+email: yins25@mails.tsinghua.edu.cn
 # email_title: Email (Email title override)
 phone: (+86) 15690129730
 # phone_title: Phone (Phone title override)
@@ -35,6 +35,12 @@ googlescholar_username:
 
 # Additional icon links
 additional_links:
+- title: WeChat: Elon_Yin
+  icon: fab fa-weixin
+  url: "#"
+- title: Email: yinelon@gmail.com
+  icon: fas fa-envelope
+  url: mailto:yinelon@gmail.com
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -59,22 +65,21 @@ content:
     layout: list
     content:
       - layout: top-right
-        title: Tsinghua University, School of Economics and Management
+        title: "<img src='assets/THU.png' alt='Tsinghua University' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Tsinghua University, School of Economics and Management"
         sub_title: Master of Finance
         caption: Beijing, China • Sept 2025 - Jun 2027
-        quote: 
+        quote:
         description: | # this will include new lines to allow paragraphs
           **Current Courses:** Large Language Models and Generative AI, Financial Derivatives, Financial Data Analysis, Introduction to FinTech
           
           **Research Focus:** Quantitative finance, algorithmic trading, and machine learning applications in financial markets
       - layout: top-right
-        title: Shanghai Jiao Tong University, School of Biomedical Engineering
+        title: "<img src='assets/SJTU.png' alt='Shanghai Jiao Tong University' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Shanghai Jiao Tong University, School of Biomedical Engineering"
         sub_title: Bachelor of Engineering (Electronic & Computer Eng. Track)
         caption: Shanghai, China • Sept 2021 - Jun 2025
         quote:
         description: | # this will include new lines to allow paragraphs
-          • **GPA:** 3.75/4.0
-          • **Honors:** Merit Student Award | First Class Academic Scholarship | Outstanding Graduate
+          **Academic Performance:** GPA 3.75/4.0 | Outstanding Graduate | Merit Student Award | First Class Academic Scholarship
           
           **Core Courses:** Data Structure (A), Methods in Mathematical Physics (A), Biostatistics (A-), Medical Robot Control (A)
           
@@ -212,6 +217,16 @@ content:
   - title: Skills & Additional Information
     layout: text
     content: | # this will include new lines to allow paragraphs
+      ## Technical Skills
+      - **Programming Languages:** Python, C++, SQL
+      - **Development Tools:** Git, Wind Terminal, Excel/PowerPoint
+      - **Machine Learning:** LightGBM, PyTorch, TensorFlow, Scikit-learn
+      - **Quantitative Finance:** Qlib, PyPortfolioOpt, Alphalens, Backtrader
+      - **Data Analysis:** Pandas, NumPy, Matplotlib, Seaborn
+      - **Deep Learning:** Transformer, GRU, LSTM, CNN, RNN
+      - **Natural Language Processing:** BERT, GPT, LLM fine-tuning
+      - **Cloud & Deployment:** Docker, Linux, CentOS
+
       ## Language Proficiency
       - **English:** TOEFL 108 (Note: My spoken English needs improvement)
       - **Chinese:** Native Speaker
