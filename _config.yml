@@ -34,10 +34,10 @@ orcid_username:
 googlescholar_username:
 
 # Additional icon links
-additional_links:
-- title: Elon_Yin
-  icon: fab fa-weixin
-  url: https://yinshuo-thu.github.io
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -281,12 +281,12 @@ content:
         quote: >
           Sep 2023 - Mar 2024, Bronze Medalist
         description: | # this will include new lines to allow paragraphs
-          Built LightGBM-based predictive model, forecasting Nasdaq stock closing price movements from order book and auction data
+          Built LightGBM-based predictive model, forecasting Nasdaq stock closing price movements from order book and auction data.
           
-          **Technical Approach:** Implemented purged time-series cross-validation to mitigate lookahead bias, applied hyperparameter tuning with early stopping, and retrained final ensemble model
+          Implemented purged time-series cross-validation to mitigate lookahead bias, applied hyperparameter tuning with early stopping, and retrained final ensemble model
           
-          **Results:** Achieved Mean Absolute Error (MAE) of 5.473 on validation, earning Bronze Medal ranking
-  - title: Skills & Additional Information
+          Achieved Mean Absolute Error (MAE) of 5.473 on validation, earning Bronze Medal ranking
+  - title: Additional Information
     layout: text
     content: | # this will include new lines to allow paragraphs
 
@@ -295,10 +295,10 @@ content:
       - **Chinese:** Native Speaker
 
       ## Hobbies & Interests
-      - **Sports:** Enjoy various sports, play basketball daily, currently learning tennis and badminton
+      - **Sports:** Enjoy various sports, play basketball daily, currently learning tennis and badminton. Always happy to connect with workout buddies or sports partners!
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
