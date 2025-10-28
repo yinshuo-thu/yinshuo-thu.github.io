@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Shuo Yin (尹硕)
-title: Quantitative Researcher & ML Engineer
+title: Quantitative Researcher & LLM Engineer
 email: yinelon@gmail.com
 # email_title: Email (Email title override)
 phone: (+86) 15690129730
@@ -52,19 +52,19 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: assets/head.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a Master's student in Finance at Tsinghua University (Class of 2027), with a Bachelor's degree in Engineering from Shanghai Jiao Tong University. My academic journey spans multiple domains including computer vision, natural language processing, and time series analysis, with publications in each of these fields.
+  
+I am currently pursuing a Master's in Finance at Tsinghua University (Class of 2027), having completed my Bachelor's degree in Engineering at Shanghai Jiao Tong University. My undergraduate academic journey spans multiple fields, including computer vision, natural language processing, and time series analysis, with publications in these areas.
 
-  Currently serving as a Quantitative Research Intern, I focus on applying deep learning and large language model methodologies to quantitative modeling and factor discovery. My work combines cutting-edge AI research with practical financial applications, developing innovative approaches to algorithmic trading and market analysis.
+As a Quantitative Research Intern, I apply advanced deep learning techniques and large language models to quantitative modeling and factor discovery. My work merges cutting-edge AI research with practical financial applications, focusing on developing innovative approaches to algorithmic trading and market analysis.
 
-  I welcome opportunities to connect and collaborate. Feel free to reach out via WeChat (Elon_Yin) or email. You can also download my bilingual resume for more detailed information about my background and experience.
+I am open to connecting and collaborating with others in these fields. Feel free to reach out to me via WeChat (Elon\_Yin) or email at [yinelon@gmail.com](mailto:yinelon@gmail.com). For more detailed information about my background and experience, you can download my bilingual resume here: [Chinese & English Resume](assets/Resume-ShuoYin-CN:EN.pdf).
 
-  **Download Resume:** [Chinese & English Resume](assets/Resume-ShuoYin-CN:EN.pdf)
 
 content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: top-left
         title: "<img src='assets/THU.png' alt='Tsinghua University' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Tsinghua University, School of Economics and Management"
         sub_title: Master of Finance
         caption: Beijing, China • Sept 2025 - Jun 2027
@@ -73,7 +73,7 @@ content:
           **Current Courses:** Large Language Models and Generative AI, Financial Derivatives, Financial Data Analysis, Introduction to FinTech
           
           **Research Focus:** Quantitative finance, algorithmic trading, and machine learning applications in financial markets
-      - layout: top-right
+      - layout: top-left
         title: "<img src='assets/SJTU.png' alt='Shanghai Jiao Tong University' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Shanghai Jiao Tong University, School of Biomedical Engineering"
         sub_title: Bachelor of Engineering (Electronic & Computer Eng. Track)
         caption: Shanghai, China • Sept 2021 - Jun 2025
@@ -92,7 +92,7 @@ content:
     layout: list
     content:
       - layout: right
-        title: Lingjun Investment (灵均投资) (AUM ¥40B Chinese Quant)
+        title: Lingjun Investment (灵均投资)
         sub_title: Quantitative Research Intern
         caption: Beijing, China • Aug 2025 - Present
         link: 
@@ -111,10 +111,11 @@ content:
         caption: Shanghai, China • Apr 2025 - Aug 2025
         link: 
         quote:
-        description: | # this will include new lines to allow paragraphs
+        description: | # this will include new lines to allow paragraphs          
+          - Data Screening Model: Engineered ProQ model for automated data screening on Ling LLM; fine-tuned quality-filtering LLMs and streamlined the pipeline. Built custom agent-based data screening and harmonization model, pre-screening data using metrics like PPL and iteratively selecting representative data for fine-tuning quality-filtering models. Post-trained Ling MOE Lite on ~3M optimized data, improving language understanding and code completion by over 1%. 
+          - Signal-Based Data Filters: Developed rule- and model-based operators to identify low-quality data using targeted signals
+
           ![ProQ Framework](assets/ProQ.png)
-          
-          Engineered ProQ model for automated data screening on Ling LLM; fine-tuned quality-filtering LLMs and streamlined the pipeline. Built custom agent-based data screening and harmonization model, pre-screening data using metrics like PPL and iteratively selecting representative data for fine-tuning quality-filtering models. Post-trained Ling MOE Lite on ~3M optimized data, improving language understanding and code completion by over 1%. Developed rule- and model-based operators to identify low-quality data using targeted signals
       - layout: right
         title: Panoramic Hills Capital (AUM $4B Hedge Fund)
         sub_title: Crypto Research Intern
@@ -124,9 +125,9 @@ content:
         description: | # this will include new lines to allow paragraphs
           Conducted crypto market monitoring and developed sentiment indices on crypto, providing insights for fund positioning
           
-          **NLP Sentiment Index Modeling:** Built scrapers and real-time pipelines to source, aggregate, and filter crypto feeds; fine-tuned BERT sentiment model on collected data to produce index used to guide position sizing
+          - **NLP Sentiment Index Modeling:** Built scrapers and real-time pipelines to source, aggregate, and filter crypto feeds; fine-tuned BERT sentiment model on collected data to produce index used to guide position sizing
           
-          **Crypto Analysis:** Monitored daily crypto trends; constructed financial models for BTC miners (MARA, CLSK, RIOT, etc.)
+          - **Crypto Analysis:** Monitored daily crypto trends; constructed financial models for BTC miners (MARA, CLSK, RIOT, etc.)
   - title: Research & Publications
     layout: list # Type of content section (list/text)
     content:
@@ -210,18 +211,9 @@ content:
   - title: Skills & Additional Information
     layout: text
     content: | # this will include new lines to allow paragraphs
-      ## Technical Skills
-      - **Programming Languages:** Python, C++, SQL
-      - **Development Tools:** Git, Wind Terminal, Excel/PowerPoint
-      - **Machine Learning:** LightGBM, PyTorch, TensorFlow, Scikit-learn
-      - **Quantitative Finance:** Qlib, PyPortfolioOpt, Alphalens, Backtrader
-      - **Data Analysis:** Pandas, NumPy, Matplotlib, Seaborn
-      - **Deep Learning:** Transformer, GRU, LSTM, CNN, RNN
-      - **Natural Language Processing:** BERT, GPT, LLM fine-tuning
-      - **Cloud & Deployment:** Docker, Linux, CentOS
 
       ## Language Proficiency
-      - **English:** TOEFL 108 (Note: My spoken English needs improvement)
+      - **English:** TOEFL 108
       - **Chinese:** Native Speaker
 
       ## Hobbies & Interests
