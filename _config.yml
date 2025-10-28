@@ -63,7 +63,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-left
+      - layout: top-right
         title: "<img src='assets/THU.png' alt='Tsinghua University' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Tsinghua University, School of Economics and Management"
         sub_title: Master of Finance
         caption: Beijing, China • Sept 2025 - Jun 2027
@@ -72,7 +72,7 @@ content:
           **Current Courses:** Large Language Models and Generative AI, Financial Derivatives, Financial Data Analysis, Introduction to FinTech
           
           **Research Focus:** Quantitative finance, algorithmic trading, and machine learning applications in financial markets
-      - layout: top-left
+      - layout: top-right
         title: "<img src='assets/SJTU.png' alt='Shanghai Jiao Tong University' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Shanghai Jiao Tong University, School of Biomedical Engineering"
         sub_title: Bachelor of Engineering (Electronic & Computer Eng. Track)
         caption: Shanghai, China • Sept 2021 - Jun 2025
@@ -90,7 +90,7 @@ content:
   - title: Internship Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: Lingjun Investment (灵均投资)
         sub_title: Quantitative Research Intern
         caption: Beijing, China • Aug 2025 - Present
@@ -104,7 +104,7 @@ content:
           **Deep Learning Time Series Strategy:** Developed GRU and Transformer baselines, with MoE combination attempts
           - GRU: Added input-projection block (Linear → LayerNorm → GELU), followed by bidirectional GRU encoder and temporal-attention pooling; loss-driven optimization improved backtest AR by 2%+ to 57%
           - Transformer: Implemented encoder-only Transformer with linear feature mapping and sinusoidal positional encoding; currently developing multi-scale temporal fusion; baseline backtest AR 44%
-      - layout: right
+      - layout: left
         title: Ant Group (Alipay)
         sub_title: LLM Algorithm Intern
         caption: Shanghai, China • Apr 2025 - Aug 2025
@@ -115,7 +115,7 @@ content:
           - Signal-Based Data Filters: Developed rule- and model-based operators to identify low-quality data using targeted signals
 
           ![ProQ Framework](assets/ProQ.png)
-      - layout: right
+      - layout: left
         title: Panoramic Hills Capital (AUM $4B Hedge Fund)
         sub_title: Crypto Research Intern
         caption: Shanghai, China • Jan 2025 - Mar 2025
@@ -163,11 +163,15 @@ content:
             icon: ai ai-arxiv
             url: https://arxiv.org/abs/
         quote: >
-          Jun 2025 - Sept 2025
+          Jun 2025 - Sept 2025, ICASSP 2026 In Submission
         description: | # this will include new lines to allow paragraphs
+          **Authors:** **Shuo Yin\* **, Jiahong Zhu, Tianlong Yang, Yuqiao Liu
+          
           - Developed TS-Agent, a reinforcement learning–based agent for financial time-series forecasting, using LLM-generated strategy pool for exploration-enhanced fine-tuning, then seeding stepwise RL from selected strategies with custom RL module
           
           - Improved strategy generation beyond baseline by over 10%, with strategy performance close to top-tier LLMs (e.g., DeepSeek-R1)
+
+          ![TS-Agent Framework](assets/TS-Agent.png)
       - layout: left
         border: weak
         title: "Revolutionizing Open Set Domain Generalization: Learning to generalize via Conditional Diffusion Without Gradient"
@@ -178,7 +182,7 @@ content:
             icon: ai ai-arxiv
             url: https://arxiv.org/abs/
         quote: >
-          In Submission
+          Jul 2025 - Present, In Submission
         description: | # this will include new lines to allow paragraphs
           **Authors:** Haidong Kang, **Shuo Yin**, Huiquan Zhang
           
@@ -201,10 +205,10 @@ content:
             icon: ai ai-arxiv
             url: https://arxiv.org/abs/
         quote: >
-          Feb 2024 - Sept 2024
+          Feb 2024 - Sept 2024, Published in Nonlinear Dynamics (SCI Q2)
         description: | # this will include new lines to allow paragraphs
-          **Published in Nonlinear Dynamics (SCI Q2)**
-          
+          **Authors:** Feier Chen, **Shuo Yin**, Jiahang Zhang, Yi Sha & Huaxiao Ji
+
           • Validated multifractality of LNG spot freight rates using MF-DFA and other computational methods; conducted multi-peak analysis to establish factor signals (spectral decomposition components, peak locations, long-range correlation strength)
           
           • Implemented LSTM and other methods for LNG futures return prediction; combined Hurst exponent and other indicators for strategy switching with window smoothing; achieved backtest annualized return exceeding 36%
