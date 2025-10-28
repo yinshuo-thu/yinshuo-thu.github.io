@@ -132,6 +132,28 @@ content:
     content:
       - layout: left
         border: weak
+        title: "TS-Agent: RL Empowered LLM Agents for Financial Time Series Forecasting"
+        link: https://github.com/yinshuo156/TS-Agent
+        link_text: GitHub Repository
+        additional_links:
+          - title: ""
+            icon: fab fa-github
+            url: https://github.com/yinshuo156/TS-Agent
+          - title: arXiv
+            icon: ai ai-arxiv
+            url: https://arxiv.org/abs/
+        quote: >
+          Jun 2025 - Sept 2025, ICASSP 2026 In Submission
+        description: | # this will include new lines to allow paragraphs
+          **Authors:** *Shuo Yin, Jiahong Zhu, Tianlong Yang, Yuqiao Liu*
+          
+          - Developed TS-Agent, a reinforcement learning–based agent for financial time-series forecasting, using LLM-generated strategy pool for exploration-enhanced fine-tuning, then seeding stepwise RL from selected strategies with custom RL module
+          
+          - Improved strategy generation beyond baseline by over 10%, with strategy performance close to top-tier LLMs (e.g., DeepSeek-R1)
+
+          ![TS-Agent Framework](assets/TS-Agent.png)
+        - layout: left
+        border: weak
         title: "AlphaMaster: Comprehensive Alpha Discovery and Agent Implementation"
         link: https://github.com/yinshuo156/AlphaMaster
         link_text: GitHub Repository
@@ -150,46 +172,7 @@ content:
           - Genetic algorithm: Encoded factor expressions and applied crossover/mutation; selected robust factors using quantitative metrics
           
           **Factor alignment & Alpha reports:** Developed factor alignment and filtering framework for A-shares and cryptocurrencies, implementing data cleansing, dual-chain dynamic iteration, and agent-based reporting
-      - layout: left
-        border: weak
-        title: "TS-Agent: RL Empowered LLM Agents for Financial Time Series Forecasting"
-        link: https://github.com/yinshuo156/TS-Agent
-        link_text: GitHub Repository
-        additional_links:
-          - title: ""
-            icon: fab fa-github
-            url: https://github.com/yinshuo156/TS-Agent
-          - title: arXiv
-            icon: ai ai-arxiv
-            url: https://arxiv.org/abs/
-        quote: >
-          Jun 2025 - Sept 2025, ICASSP 2026 In Submission
-        description: | # this will include new lines to allow paragraphs
-          **Authors:** **Shuo Yin\* **, Jiahong Zhu, Tianlong Yang, Yuqiao Liu
-          
-          - Developed TS-Agent, a reinforcement learning–based agent for financial time-series forecasting, using LLM-generated strategy pool for exploration-enhanced fine-tuning, then seeding stepwise RL from selected strategies with custom RL module
-          
-          - Improved strategy generation beyond baseline by over 10%, with strategy performance close to top-tier LLMs (e.g., DeepSeek-R1)
-
-          ![TS-Agent Framework](assets/TS-Agent.png)
-      - layout: left
-        border: weak
-        title: "Revolutionizing Open Set Domain Generalization: Learning to generalize via Conditional Diffusion Without Gradient"
-        link: 
-        link_text: 
-        additional_links:
-          - title: arXiv
-            icon: ai ai-arxiv
-            url: https://arxiv.org/abs/
-        quote: >
-          Jul 2025 - Present, In Submission
-        description: | # this will include new lines to allow paragraphs
-          **Authors:** Haidong Kang, **Shuo Yin**, Huiquan Zhang
-          
-          ![OGDiff Framework](assets/OGDiff.png)
-          
-          We propose **OGDiff**, a novel OSDG framework that replaces expensive second-order meta-learning with a conditional diffusion process. This avoids inner-loop backpropagation, reducing computational costs and improving stability. We also introduce the **MSDFF** module to better capture both fine- and coarse-grained features, enhancing recognition of known and unknown classes. OGDiff achieves state-of-the-art performance on OSDG benchmarks while significantly lowering training costs.
-      - layout: left
+        - layout: left
         border: weak
         title: "CtrlVSR: Controllable Video Super-Resolution via Motion-Aware Latent World Modeling"
         link: 
@@ -199,9 +182,9 @@ content:
             icon: ai ai-arxiv
             url: https://arxiv.org/abs/
         quote: >
-          In Submission
+          Aug 2025 - Present, In Submission
         description: | # this will include new lines to allow paragraphs
-          **Authors:** Rong Fu, Chunlei Meng, **Shuo Yin**, Zijian Zhang, Yingrui Ji, Tianxiang Xu, Chenhao Wang, Weizhi Tang, Simon James Fong
+          **Authors:** *Rong Fu, Chunlei Meng, Shuo Yin, Zijian Zhang, Yingrui Ji, Tianxiang Xu, Chenhao Wang, Weizhi Tang, Simon James Fong*
           
           We propose **CtrlVSR**, a video super-resolution method that forecasts high-resolution frames by leveraging motion cues. The model encodes low-resolution frames and motion data, then generates enhanced outputs with controllable adjustments like sharpening or blur removal. CtrlVSR achieves superior results on 4K and 8K footage, offering flexibility without requiring ultra-high-resolution training data.
       - layout: left
@@ -216,9 +199,26 @@ content:
         quote: >
           Aug 2025 - Present, In Submission
         description: | # this will include new lines to allow paragraphs
-          **Authors:** Rong Fu, Chunlei Meng, **Shuo Yin**, Zijian Zhang, Weizhi Tang, Shaobo Wang, Youjin Wang, Simon James Fong
+          **Authors:** *Rong Fu, Chunlei Meng, Shuo Yin, Zijian Zhang, Weizhi Tang, Shaobo Wang, Youjin Wang, Simon James Fong*
           
           We propose a vision-based approach that abandons text and allows visual features to communicate through a graph of image prototypes. Using self-supervised learning, the model uncovers emergent semantic structures, where meaning is determined purely by vision. Text is only used for interpretation, not during training. This method demonstrates that vision alone can recognize and name the world without relying on textual input.
+      - layout: left
+        border: weak
+        title: "Revolutionizing Open Set Domain Generalization: Learning to generalize via Conditional Diffusion Without Gradient"
+        link: 
+        link_text: 
+        additional_links:
+          - title: arXiv
+            icon: ai ai-arxiv
+            url: https://arxiv.org/abs/
+        quote: >
+          Jul 2025 - Present, In Submission
+        description: | # this will include new lines to allow paragraphs
+          **Authors:** *Haidong Kang, Shuo Yin, Huiquan Zhang*
+          
+          We propose **OGDiff**, a novel OSDG framework that replaces expensive second-order meta-learning with a conditional diffusion process. This avoids inner-loop backpropagation, reducing computational costs and improving stability. We also introduce the **MSDFF** module to better capture both fine- and coarse-grained features, enhancing recognition of known and unknown classes. OGDiff achieves state-of-the-art performance on OSDG benchmarks while significantly lowering training costs.
+
+          ![OGDiff Framework](assets/OGDiff.png)
       - layout: left
         border: weak
         title: LNG Freight Rate Multifractal Analysis and Trading Strategy
@@ -237,13 +237,28 @@ content:
         quote: >
           Feb 2024 - Sept 2024, Published in Nonlinear Dynamics (SCI Q2)
         description: | # this will include new lines to allow paragraphs
-          **Authors:** Feier Chen, **Shuo Yin**, Jiahang Zhang, Yi Sha & Huaxiao Ji
+          **Authors:** *Feier Chen, Shuo Yin, Jiahang Zhang, Yi Sha & Huaxiao Ji*
 
           • Validated multifractality of LNG spot freight rates using MF-DFA and other computational methods; conducted multi-peak analysis to establish factor signals (spectral decomposition components, peak locations, long-range correlation strength)
           
           • Implemented LSTM and other methods for LNG futures return prediction; combined Hurst exponent and other indicators for strategy switching with window smoothing; achieved backtest annualized return exceeding 36%
           
           **Technical Implementation:** ~5k lines of code covering multifractal analysis, time series prediction, and portfolio optimization
+      - layout: left
+        border: weak
+        title: "Zero-shot OCT segmentation for volumetric and live-streaming data"
+        link: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13305/1330508/Zero-shot-OCT-segmentation-for-volumetric-and-live-streaming-data/10.1117/12.3039773.short
+        link_text: Published Paper
+        additional_links:
+          - title: Published Paper
+            icon: fas fa-file-alt
+            url: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13305/1330508/Zero-shot-OCT-segmentation-for-volumetric-and-live-streaming-data/10.1117/12.3039773.short
+        quote: >
+          Sep 2023 - Feb 2024, Published in SPIE
+        description: | # this will include new lines to allow paragraphs
+          **Authors:** *Kaixiang Zhang, Haoran Zhang, Qi Lan, Zesen Chen, **Shuo Yin**, Yongqi Wei, Zehao Wang, Jianlong Yang*
+          
+          We propose a zero-shot OCT segmentation method that overcomes the limitations of traditional deep learning approaches, which require re-labeling and retraining for unseen Regions of Interest (ROIs). Our method only needs box or point prompts for ROIs in the first frame, enabling automatic segmentation in subsequent frames.
       - layout: left
         border: weak
         title: "Kaggle Competition: Optiver Trading at the Close (Bronze Medalist)"
