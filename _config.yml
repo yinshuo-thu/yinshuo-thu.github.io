@@ -6,9 +6,9 @@ repository: yinshuo-thu/yinshuo-thu.github.io
 version: 2
 
 # Personal info
-name: Shuo Yin
+name: Shuo Yin (尹硕)
 title: Quantitative Researcher & ML Engineer
-email: yins25@mails.tsinghua.edu.cn
+email: yinelon@gmail.com
 # email_title: Email (Email title override)
 phone: (+86) 15690129730
 # phone_title: Phone (Phone title override)
@@ -38,7 +38,7 @@ additional_links:
 - title: "WeChat: Elon_Yin"
   icon: fab fa-weixin
   url: "#"
-- title: "Email: yinelon@gmail.com"
+- title: yinelon@gmail.com
   icon: fas fa-envelope
   url: mailto:yinelon@gmail.com
 
@@ -79,7 +79,11 @@ content:
         caption: Shanghai, China • Sept 2021 - Jun 2025
         quote:
         description: | # this will include new lines to allow paragraphs
-          **Academic Performance:** GPA 3.75/4.0 | Outstanding Graduate | Merit Student Award | First Class Academic Scholarship
+          **Academic Performance:** 
+          • GPA: 3.75/4.0
+          • Outstanding Graduate
+          • Merit Student Award  
+          • First Class Academic Scholarship
           
           **Core Courses:** Data Structure (A), Methods in Mathematical Physics (A), Biostatistics (A-), Medical Robot Control (A)
           
@@ -88,7 +92,7 @@ content:
     layout: list
     content:
       - layout: right
-        title: Lingjun Investment (AUM ¥40B Chinese Quant)
+        title: Lingjun Investment (灵均投资) (AUM ¥40B Chinese Quant)
         sub_title: Quantitative Research Intern
         caption: Beijing, China • Aug 2025 - Present
         link: 
@@ -108,11 +112,9 @@ content:
         link: 
         quote:
         description: | # this will include new lines to allow paragraphs
-          Engineered ProQ model for automated data screening on Ling LLM; fine-tuned quality-filtering LLMs and streamlined the pipeline
+          ![ProQ Framework](assets/ProQ.png)
           
-          **Data Screening Model:** Built custom agent-based data screening and harmonization model (ProQ), pre-screening data using metrics like PPL and iteratively selecting representative data for fine-tuning quality-filtering models. Post-trained Ling MOE Lite on ~3M optimized data, improving language understanding and code completion by over 1%
-          
-          **Signal-Based Data Filters:** Developed rule- and model-based operators to identify low-quality data using targeted signals
+          Engineered ProQ model for automated data screening on Ling LLM; fine-tuned quality-filtering LLMs and streamlined the pipeline. Built custom agent-based data screening and harmonization model, pre-screening data using metrics like PPL and iteratively selecting representative data for fine-tuning quality-filtering models. Post-trained Ling MOE Lite on ~3M optimized data, improving language understanding and code completion by over 1%. Developed rule- and model-based operators to identify low-quality data using targeted signals
       - layout: right
         title: Panoramic Hills Capital (AUM $4B Hedge Fund)
         sub_title: Crypto Research Intern
@@ -134,7 +136,7 @@ content:
         link: https://github.com/yinshuo156/AlphaMaster
         link_text: GitHub Repository
         additional_links:
-          - title: GitHub Repository
+          - title: ""
             icon: fab fa-github
             url: https://github.com/yinshuo156/AlphaMaster
         quote: >
@@ -154,7 +156,7 @@ content:
         link: https://github.com/yinshuo156/TS-Agent
         link_text: GitHub Repository
         additional_links:
-          - title: GitHub Repository
+          - title: ""
             icon: fab fa-github
             url: https://github.com/yinshuo156/TS-Agent
           - title: arXiv
@@ -168,25 +170,11 @@ content:
           Improved strategy generation beyond baseline by over 10%, with strategy performance close to top-tier LLMs (e.g., DeepSeek-R1)
       - layout: left
         border: weak
-        title: "ProQ: Automated Data Screening Framework for LLM Training"
-        link: 
-        link_text: 
-        additional_links:
-        quote: >
-          Apr 2025 - Aug 2025
-        description: | # this will include new lines to allow paragraphs
-          Engineered comprehensive data screening and harmonization framework for large language model training
-          
-          **Agent-based Workflow:** Designed custom agent-based data screening pipeline with iterative quality assessment and representative data selection
-          
-          **Performance Optimization:** Post-trained Ling MOE Lite on ~3M optimized data, improving language understanding and code completion by over 1%
-      - layout: left
-        border: weak
         title: LNG Freight Rate Multifractal Analysis and Trading Strategy
         link: https://github.com/yinshuo156/Code_LNG
         link_text: GitHub Repository
         additional_links:
-          - title: GitHub Repository
+          - title: ""
             icon: fab fa-github
             url: https://github.com/yinshuo156/Code_LNG
           - title: Published Paper
@@ -198,9 +186,11 @@ content:
         quote: >
           Feb 2024 - Sept 2024
         description: | # this will include new lines to allow paragraphs
-          Conducted comprehensive multifractal analysis of LNG spot freight rates and developed predictive models with trading strategies
+          **Published in Nonlinear Dynamics (SCI Q2)**
           
-          **Published in Nonlinear Dynamics (SCI Q2):** Complete implementation of prediction models and quantitative trading strategies
+          • Validated multifractality of LNG spot freight rates using MF-DFA and other computational methods; conducted multi-peak analysis to establish factor signals (spectral decomposition components, peak locations, long-range correlation strength)
+          
+          • Implemented LSTM and other methods for LNG futures return prediction; combined Hurst exponent and other indicators for strategy switching with window smoothing; achieved backtest annualized return exceeding 36%
           
           **Technical Implementation:** ~5k lines of code covering multifractal analysis, time series prediction, and portfolio optimization
       - layout: left
