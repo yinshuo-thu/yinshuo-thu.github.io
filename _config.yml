@@ -146,7 +146,7 @@ content:
           ![TS-Agent Framework](assets/TS-Agent.png)
       - layout: left
         border: weak
-        title: "<img src='assets/bagelscore_logo.jpg' alt='BagelScore' style='height: 24px; margin-right: 8px; vertical-align: middle;'>BagelScore: Visual-Language Evaluation Made Easy"
+        title: "<img src='assets/bagelscore_logo.png' alt='BagelScore' style='height: 24px; margin-right: 8px; vertical-align: middle;'>BagelScore: Visual-Language Evaluation Made Easy"
         link: https://github.com/AIGeeksGroup/BagelScore
         link_text: GitHub Repository
         additional_links:
