@@ -14,7 +14,7 @@ phone: (+86) 15690129730
 # phone_title: Phone (Phone title override)
 website: https://yinshuo-thu.github.io
 # website_title: Web (Website title override)
-wechat: Elon_Yin
+
 # Dark Mode (true/false/never)
 darkmode: false
 
@@ -35,9 +35,9 @@ googlescholar_username:
 
 # Additional icon links
 additional_links:
-- title: "WeChat: Elon_Yin"
+- title: Elon_Yin
   icon: fab fa-weixin
-  url: "#"
+  url: https://yinshuo-thu.github.io
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -74,7 +74,9 @@ content:
         quote:
         description: | # this will include new lines to allow paragraphs
           **Academic Performance:** GPA: 3.75/4.0 | Outstanding Graduate | Merit Student Award | First Class Academic Scholarship
+          
           **Core Courses:** Data Structure (A), Methods in Mathematical Physics (A), Biostatistics (A-), Medical Robot Control (A)
+          
           **Research:** Multimodal LLM (AAAI, ICLR); Financial Time Series (SCI Q2 journal); Agent, Reinforcement Learning (CCF-B conf.)
   - title: Internship Experience
     layout: list
