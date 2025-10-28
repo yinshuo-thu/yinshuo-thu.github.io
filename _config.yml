@@ -20,7 +20,7 @@ darkmode: false
 
 # Social links
 twitter_username: 
-github_username: yinshuo156
+github_username: yinshuo-thu
 stackoverflow_username: 
 dribbble_username: 
 facebook_username: 
@@ -35,12 +35,9 @@ googlescholar_username:
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+- title: WeChat
+  icon: fab fa-weixin
+  url: https://weixin.qq.com
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -50,15 +47,15 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/profile.jpg
+about_profile_image: assets/head.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a Master's student in Finance at Tsinghua University with a strong background in Biomedical Engineering from Shanghai Jiao Tong University. My research focuses on **quantitative finance**, **machine learning**, and **large language models**, with particular expertise in developing algorithmic trading strategies and financial time series forecasting.
+  I am a Master's student in Finance at Tsinghua University (Class of 2027), with a Bachelor's degree in Engineering from Shanghai Jiao Tong University. My academic journey spans multiple domains including computer vision, natural language processing, and time series analysis, with publications in each of these fields.
 
-  Currently working as a Quantitative Research Intern at Lingjun Investment (¥40B AUM), I specialize in building cross-sectional and time-series ML models for equity trading. My work spans from traditional machine learning approaches like LightGBM and MLP to advanced deep learning architectures including GRU and Transformer models, achieving significant alpha generation with Sharpe ratios exceeding 2.0.
+  Currently serving as a Quantitative Research Intern, I focus on applying deep learning and large language model methodologies to quantitative modeling and factor discovery. My work combines cutting-edge AI research with practical financial applications, developing innovative approaches to algorithmic trading and market analysis.
 
-  I have extensive experience in **LLM research and development**, having contributed to projects at Ant Group (Alipay) where I engineered the ProQ model for automated data screening. My research contributions include publications in top-tier venues (AAAI, ICLR) and ongoing work on multimodal LLM evaluation methods.
+  I welcome opportunities to connect and collaborate. Feel free to reach out via WeChat (Elon_Yin) or email. You can also download my bilingual resume for more detailed information about my background and experience.
 
-  My technical expertise encompasses Python, C++, SQL, and various ML frameworks, with a proven track record in both academic research and industry applications. I am passionate about bridging the gap between cutting-edge AI research and practical financial applications.
+  **Download Resume:** [Chinese & English Resume](assets/Resume-ShuoYin-CN:EN.pdf)
 
 content:
   - title: Education
@@ -86,7 +83,7 @@ content:
           **Core Courses:** Data Structure (A), Methods in Mathematical Physics (A), Biostatistics (A-), Medical Robot Control (A)
           
           **Research:** Multimodal LLM (AAAI, ICLR); Financial Time Series (SCI Q2 journal); Agent, Reinforcement Learning (CCF-B conf.)
-  - title: Internship
+  - title: Internship Experience
     layout: list
     content:
       - layout: right
