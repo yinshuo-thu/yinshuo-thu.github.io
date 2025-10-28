@@ -34,13 +34,10 @@ orcid_username:
 googlescholar_username:
 
 # Additional icon links
-# additional_links:
-# - title: "WeChat: Elon_Yin"
-#   icon: fab fa-weixin
-#   url: "#"
-# - title: yinelon@gmail.com
-#   icon: fas fa-envelope
-#   url: mailto:yinelon@gmail.com
+additional_links:
+- title: "WeChat: Elon_Yin"
+  icon: fab fa-weixin
+  url: "#"
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -52,11 +49,11 @@ googlescholar_username:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: assets/head.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am currently pursuing a Master's in Finance at Tsinghua University (Class of 2027), having completed my Bachelor's degree in Engineering at Shanghai Jiao Tong University. My undergraduate academic journey spans multiple fields, including computer vision, natural language processing, and time series analysis, with publications in these areas.
+  I am currently pursuing a Master's in Finance at Tsinghua University, having completed my Bachelor's degree in Engineering at Shanghai Jiao Tong University. My undergraduate academic journey spans multiple fields, including computer vision, natural language processing, and time series analysis, with publications in these areas.
 
   As a Quantitative Research Intern, I apply advanced deep learning techniques and large language models to quantitative modeling and factor discovery. My work merges cutting-edge AI research with practical financial applications, focusing on developing innovative approaches to algorithmic trading and market analysis.
 
-  I am open to connecting and collaborating with others in these fields. Feel free to reach out to me via WeChat (Elon_Yin) or email at [yinelon@gmail.com](mailto:yinelon@gmail.com). For more detailed information about my background and experience, you can download my bilingual resume here: [Chinese & English Resume](assets/Resume-ShuoYin-CN:EN.pdf).
+  I am open to opportunities in Quantitative Research (QR) and Large Language Models (LLM), and I’m always excited to connect with others, whether to collaborate or just for a friendly chat. Feel free to reach out to me via WeChat (Elon\_Yin) or email at [yinelon@gmail.com](mailto:yinelon@gmail.com). For more detailed information about my background and experience, you can download my bilingual resume here: [Chinese & English Resume](assets/Resume-ShuoYin-CN:EN.pdf).
 
 
 content:
@@ -90,21 +87,22 @@ content:
         quote:
         description: | # this will include new lines to allow paragraphs
           **Machine Learning Cross-Sectional Model:** Built LightGBM and MLP models to predict cross-sectional returns
-          - LightGBM: Trained on 1k+ alpha factors with rolling windows; 2021–2023 backtest (long top-30%) hit 42% AR, Sharpe 2.25, max DD −8.8%; 2025 live-simulated trading, AR 30%+ after portfolio optimization
-          - MLP: Designed and tuned MLP with rolling predictions; 2021–2023 backtest top-30% long portfolio achieved AR 48.2%, Sharpe 2.48, max drawdown −10.5%; recent live-simulated trading shows 40%+ annualized
+          - **LightGBM** (**AR 42%**): Trained on 1k+ alpha factors with rolling windows; implemented parallel training configuration; live-simulated trading shows **30%+** annualized returns after portfolio optimization
+          - **MLP** (**AR 48.2%**): Designed and tuned MLP with rolling predictions; performed systematic hyperparameter tuning (learning rate, epochs, network structure); recent live-simulated trading shows **40%+** annualized returns
           
           **Deep Learning Time Series Strategy:** Developed GRU and Transformer baselines, with MoE combination attempts
-          - GRU: Added input-projection block (Linear → LayerNorm → GELU), followed by bidirectional GRU encoder and temporal-attention pooling; loss-driven optimization improved backtest AR by 2%+ to 57%
-          - Transformer: Implemented encoder-only Transformer with linear feature mapping and sinusoidal positional encoding; currently developing multi-scale temporal fusion; baseline backtest AR 44%
+          - **GRU** (**AR 57%**): Added input-projection block, bidirectional GRU encoder, and temporal-attention pooling; improved backtest returns
+          - **Transformer** (**AR 44%**): Implemented encoder-only Transformer with linear feature mapping and sinusoidal positional encoding; currently developing multi-scale temporal fusion
       - layout: left
         title: Ant Group (Alipay)
         sub_title: LLM Algorithm Intern
         caption: Shanghai, China • Apr 2025 - Aug 2025
         link: 
         quote:
-        description: | # this will include new lines to allow paragraphs          
-          - Data Screening Model: Engineered ProQ model for automated data screening on Ling LLM; fine-tuned quality-filtering LLMs and streamlined the pipeline. Built custom agent-based data screening and harmonization model, pre-screening data using metrics like PPL and iteratively selecting representative data for fine-tuning quality-filtering models. Post-trained Ling MOE Lite on ~3M optimized data, improving language understanding and code completion by over 1%. 
-          - Signal-Based Data Filters: Developed rule- and model-based operators to identify low-quality data using targeted signals
+        description: | # this will include new lines to allow paragraphs
+          Engineered ProQ model for automated data screening on Ling LLM; fine-tuned quality-filtering LLMs and streamlined the pipeline
+          - **Data Screening Model**: Built a custom agent-based data screening and harmonization model (ProQ), pre-screening data using metrics like PPL and iteratively selecting representative data for fine-tuning quality-filtering models. Post-trained Ling MOE Lite on ~3M optimized data, improving language understanding and code completion by over 1%
+          - **Signal-Based Data Filters**: Developed rule- and model-based operators to identify low-quality data using targeted signals
 
           ![ProQ Framework](assets/ProQ.png)
       - layout: left
@@ -137,7 +135,7 @@ content:
         quote: >
           Jun 2025 - Sept 2025, ICASSP 2026 In Submission
         description: | # this will include new lines to allow paragraphs
-          **Authors:** ***Shuo Yin***, **Jiahong Zhu**, **Tianlong Yang**, **Yuqiao Liu**
+          **Authors:** ***Shuo Yin***, *Jiahong Zhu*, *Tianlong Yang*, *Yuqiao Liu*
           
           - Developed TS-Agent, a reinforcement learning–based agent for financial time-series forecasting, using LLM-generated strategy pool for exploration-enhanced fine-tuning, then seeding stepwise RL from selected strategies with custom RL module
           
@@ -146,7 +144,7 @@ content:
           ![TS-Agent Framework](assets/TS-Agent.png)
       - layout: left
         border: weak
-        title: "BagelScore: Visual-Language Evaluation Made Easy"
+        title: "<img src='assets/bagelscore_logo.png' alt='BagelScore' style='height: 24px; margin-right: 8px; vertical-align: middle;'>BagelScore: Visual-Language Evaluation Made Easy"
         link: https://github.com/AIGeeksGroup/BagelScore
         link_text: GitHub Repository
         additional_links:
@@ -159,9 +157,11 @@ content:
         quote: >
           Sep 2025 - Present, In Submission
         description: | # this will include new lines to allow paragraphs
-          **Authors:** ***Shuo Yin***, **Biao Wu**, **Zeyu Zhang**, **Huacan Wang**, **Rui Xu**, **Ronghao Chen**, **Meng Fang**, **Ling Chen**, **Hao Tang**
+          **Authors:** ***Shuo Yin***, *Biao Wu*, *Zeyu Zhang*, *Huacan Wang*, *Rui Xu*, *Ronghao Chen*, *Meng Fang*, *Ling Chen*, *Hao Tang*
           
           This research introduces two new evaluation metrics for multimodal learning: **BagelScore**, which improves image-text alignment by leveraging unified multimodal models, and **EditingScore**, designed to assess image editing quality based on transformation difficulty in generative models. These metrics address the limitations of existing approaches, offering a more principled, reasoning-based evaluation.
+          
+          ![BagelScore Framework](assets/bagelscore.png)
       - layout: left
         border: weak
         title: "AlphaMaster: Comprehensive Alpha Discovery and Agent Implementation"
@@ -194,7 +194,7 @@ content:
         quote: >
           Aug 2025 - Present, In Submission
         description: | # this will include new lines to allow paragraphs
-          **Authors:** **Rong Fu**, **Chunlei Meng**, ***Shuo Yin***, **Zijian Zhang**, **Yingrui Ji**, **Tianxiang Xu**, **Chenhao Wang**, **Weizhi Tang**, **Simon James Fong**
+          **Authors:** *Rong Fu*, *Chunlei Meng*, ***Shuo Yin***, *Zijian Zhang*, *Yingrui Ji*, *Tianxiang Xu*, *Chenhao Wang*, *Weizhi Tang*, *Simon James Fong*
           
           **CtrlVSR** is a video super-resolution method that forecasts high-resolution frames by leveraging motion cues. The model encodes low-resolution frames and motion data, then generates enhanced outputs with controllable adjustments like sharpening or blur removal. CtrlVSR achieves superior results on 4K and 8K footage, offering flexibility without requiring ultra-high-resolution training data.
       - layout: left
@@ -209,7 +209,7 @@ content:
         quote: >
           Aug 2025 - Present, In Submission
         description: | # this will include new lines to allow paragraphs
-          **Authors:** **Rong Fu**, **Chunlei Meng**, ***Shuo Yin***, **Zijian Zhang**, **Weizhi Tang**, **Shaobo Wang**, **Youjin Wang**, **Simon James Fong**
+          **Authors:** *Rong Fu*, *Chunlei Meng*, ***Shuo Yin***, *Zijian Zhang*, *Weizhi Tang*, *Shaobo Wang*, *Youjin Wang*, *Simon James Fong*
           
           This research presents a vision-based approach that abandons text and allows visual features to communicate through a graph of image prototypes. Using self-supervised learning, the model uncovers emergent semantic structures, where meaning is determined purely by vision. Text is only used for interpretation, not during training. This method demonstrates that vision alone can recognize and name the world without relying on textual input.
       - layout: left
@@ -224,7 +224,7 @@ content:
         quote: >
           Jul 2025 - Present, In Submission
         description: | # this will include new lines to allow paragraphs
-          **Authors:** **Haidong Kang**, ***Shuo Yin***, **Huiquan Zhang**
+          **Authors:** *Haidong Kang*, ***Shuo Yin***, *Huiquan Zhang*
           
           This work introduces **OGDiff**, a novel OSDG framework that replaces expensive second-order meta-learning with a conditional diffusion process. This avoids inner-loop backpropagation, reducing computational costs and improving stability. The **MSDFF** module is also introduced to better capture both fine- and coarse-grained features, enhancing recognition of known and unknown classes. OGDiff achieves state-of-the-art performance on OSDG benchmarks while significantly lowering training costs.
 
@@ -247,13 +247,11 @@ content:
         quote: >
           Feb 2024 - Sept 2024, Published in Nonlinear Dynamics (SCI Q2)
         description: | # this will include new lines to allow paragraphs
-          **Authors:** **Feier Chen**, ***Shuo Yin***, **Jiahang Zhang**, **Yi Sha** & **Huaxiao Ji**
+          **Authors:** *Feier Chen*, ***Shuo Yin***, *Jiahang Zhang*, *Yi Sha* & *Huaxiao Ji*
 
-          • Validated multifractality of LNG spot freight rates using MF-DFA and other computational methods; conducted multi-peak analysis to establish factor signals (spectral decomposition components, peak locations, long-range correlation strength)
+          - Validated multifractality of LNG spot freight rates using MF-DFA and other computational methods; conducted multi-peak analysis to establish factor signals (spectral decomposition components, peak locations, long-range correlation strength)
           
-          • Implemented LSTM and other methods for LNG futures return prediction; combined Hurst exponent and other indicators for strategy switching with window smoothing; achieved backtest annualized return exceeding 36%
-          
-          **Technical Implementation:** ~5k lines of code covering multifractal analysis, time series prediction, and portfolio optimization
+          - Implemented LSTM and other methods for LNG futures return prediction; combined Hurst exponent and other indicators for strategy switching with window smoothing; achieved backtest annualized return exceeding 36%
       - layout: left
         border: weak
         title: "Zero-shot OCT segmentation for volumetric and live-streaming data"
@@ -266,12 +264,12 @@ content:
         quote: >
           Sep 2023 - Feb 2024, Published in SPIE
         description: | # this will include new lines to allow paragraphs
-          **Authors:** **Kaixiang Zhang**, **Haoran Zhang**, **Qi Lan**, **Zesen Chen**, ***Shuo Yin***, **Yongqi Wei**, **Zehao Wang**, **Jianlong Yang**
+          **Authors:** *Kaixiang Zhang*, *Haoran Zhang*, *Qi Lan*, *Zesen Chen*, ***Shuo Yin***, *Yongqi Wei*, *Zehao Wang*, *Jianlong Yang*
           
           This research presents a zero-shot OCT segmentation method that overcomes the limitations of traditional deep learning approaches, which require re-labeling and retraining for unseen Regions of Interest (ROIs). The method only needs box or point prompts for ROIs in the first frame, enabling automatic segmentation in subsequent frames.
       - layout: left
         border: weak
-        title: "Kaggle Competition: Optiver Trading at the Close (Bronze Medalist)"
+        title: "<img src='assets/Kaggle_logo.png' alt='Kaggle' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Kaggle: Optiver Trading at the Close"
         link: https://www.kaggle.com/competitions/optiver-trading-at-the-close
         link_text: Competition Link
         additional_links:
@@ -279,7 +277,7 @@ content:
             icon: fab fa-kaggle
             url: https://www.kaggle.com/competitions/optiver-trading-at-the-close
         quote: >
-          Sep 2023 - Mar 2024
+          Sep 2023 - Mar 2024, Bronze Medalist
         description: | # this will include new lines to allow paragraphs
           Built LightGBM-based predictive model, forecasting Nasdaq stock closing price movements from order book and auction data
           
