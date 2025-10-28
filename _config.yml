@@ -35,10 +35,10 @@ googlescholar_username:
 
 # Additional icon links
 additional_links:
-- title: WeChat: Elon_Yin
+- title: "WeChat: Elon_Yin"
   icon: fab fa-weixin
   url: "#"
-- title: Email: yinelon@gmail.com
+- title: "Email: yinelon@gmail.com"
   icon: fas fa-envelope
   url: mailto:yinelon@gmail.com
 
