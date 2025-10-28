@@ -206,6 +206,21 @@ content:
           We propose **CtrlVSR**, a video super-resolution method that forecasts high-resolution frames by leveraging motion cues. The model encodes low-resolution frames and motion data, then generates enhanced outputs with controllable adjustments like sharpening or blur removal. CtrlVSR achieves superior results on 4K and 8K footage, offering flexibility without requiring ultra-high-resolution training data.
       - layout: left
         border: weak
+        title: "EVR: Eyesight-Only Visual Representation for Recognition without Language"
+        link: 
+        link_text: 
+        additional_links:
+          - title: arXiv
+            icon: ai ai-arxiv
+            url: https://arxiv.org/abs/
+        quote: >
+          Aug 2025 - Present, In Submission
+        description: | # this will include new lines to allow paragraphs
+          **Authors:** Rong Fu, Chunlei Meng, **Shuo Yin**, Zijian Zhang, Weizhi Tang, Shaobo Wang, Youjin Wang, Simon James Fong
+          
+          We propose a vision-based approach that abandons text and allows visual features to communicate through a graph of image prototypes. Using self-supervised learning, the model uncovers emergent semantic structures, where meaning is determined purely by vision. Text is only used for interpretation, not during training. This method demonstrates that vision alone can recognize and name the world without relying on textual input.
+      - layout: left
+        border: weak
         title: LNG Freight Rate Multifractal Analysis and Trading Strategy
         link: https://github.com/yinshuo156/Code_LNG
         link_text: GitHub Repository
