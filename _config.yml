@@ -73,11 +73,11 @@ content:
         caption: Shanghai, China • Sept 2021 - Jun 2025
         quote:
         description: | # this will include new lines to allow paragraphs
-          **Academic Performance:** GPA: 3.75/4.0 | Outstanding Graduate | Merit Student Award | First Class Academic Scholarship
+          **Academic Performance:** GPA: 3.75/4.0|Outstanding Graduate|Merit Student Award|First Class Academic Scholarship
           
           **Core Courses:** Data Structure (A), Methods in Mathematical Physics (A), Biostatistics (A-), Medical Robot Control (A)
           
-          **Research:** Multimodal LLM (AAAI, ICLR); Financial Time Series (SCI Q2 journal); Agent, Reinforcement Learning (CCF-B conf.)
+          **Research:** Multimodal LLM (AAAI, ICLR, CVPR); Financial Time Series (SCI Q2 journal); Agent, Reinforcement Learning (CCF-B conf.)
   - title: Internship Experience
     layout: list
     content:
@@ -146,7 +146,7 @@ content:
           ![TS-Agent Framework](assets/TS-Agent.png)
       - layout: left
         border: weak
-        title: "<img src='assets/bagelscore_logo.png' alt='BagelScore' style='height: 24px; margin-right: 8px; vertical-align: middle;'>BagelScore: Visual-Language Evaluation Made Easy"
+        title: "<img src='assets/bagelscore_logo.jpg' alt='BagelScore' style='height: 24px; margin-right: 8px; vertical-align: middle;'>BagelScore: Visual-Language Evaluation Made Easy"
         link: https://github.com/AIGeeksGroup/BagelScore
         link_text: GitHub Repository
         additional_links:
@@ -234,26 +234,16 @@ content:
       - layout: left
         border: weak
         title: LNG Freight Rate Multifractal Analysis and Trading Strategy
-        link: https://github.com/yinshuo156/Code_LNG
-        link_text: GitHub Repository
+        link: https://link.springer.com/article/10.1007/s11071-024-10343-1
+        link_text: Published Paper
         additional_links:
-          - title: ""
-            icon: fab fa-github
-            url: https://github.com/yinshuo156/Code_LNG
           - title: Published Paper
             icon: fas fa-file-alt
             url: https://link.springer.com/article/10.1007/s11071-024-10343-1
-          - title: arXiv
-            icon: ai ai-arxiv
-            url: https://arxiv.org/abs/
         quote: >
           Feb 2024 - Sept 2024, Published in Nonlinear Dynamics (SCI Q2)
         description: | # this will include new lines to allow paragraphs
           **Authors:** *Feier Chen*, ***Shuo Yin***, *Jiahang Zhang*, *Yi Sha* & *Huaxiao Ji*
-
-          - Validated multifractality of LNG spot freight rates using MF-DFA and other computational methods; conducted multi-peak analysis to establish factor signals (spectral decomposition components, peak locations, long-range correlation strength)
-          
-          - Implemented LSTM and other methods for LNG futures return prediction; combined Hurst exponent and other indicators for strategy switching with window smoothing; achieved backtest annualized return exceeding 36%
       - layout: left
         border: weak
         title: "Zero-shot OCT segmentation for volumetric and live-streaming data"
