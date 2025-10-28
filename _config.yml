@@ -171,6 +171,23 @@ content:
           Improved strategy generation beyond baseline by over 10%, with strategy performance close to top-tier LLMs (e.g., DeepSeek-R1)
       - layout: left
         border: weak
+        title: "Revolutionizing Open Set Domain Generalization: Learning to generalize via Conditional Diffusion Without Gradient"
+        link: 
+        link_text: 
+        additional_links:
+          - title: arXiv
+            icon: ai ai-arxiv
+            url: https://arxiv.org/abs/
+        quote: >
+          In Submission
+        description: | # this will include new lines to allow paragraphs
+          **Authors:** Haidong Kang, **Shuo Yin**, Huiquan Zhang
+          
+          ![OGDiff Framework](assets/OGDiff.png)
+          
+          We propose **OGDiff**, a novel OSDG framework that replaces expensive second-order meta-learning with a conditional diffusion process. This avoids inner-loop backpropagation, reducing computational costs and improving stability. We also introduce the **MSDFF** module to better capture both fine- and coarse-grained features, enhancing recognition of known and unknown classes. OGDiff achieves state-of-the-art performance on OSDG benchmarks while significantly lowering training costs.
+      - layout: left
+        border: weak
         title: LNG Freight Rate Multifractal Analysis and Trading Strategy
         link: https://github.com/yinshuo156/Code_LNG
         link_text: GitHub Repository
