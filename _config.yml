@@ -90,10 +90,9 @@ content:
       - layout: right
         title: Lingjun Investment (AUM ¥40B Chinese Quant)
         sub_title: Quantitative Research Intern
-        caption: Aug 2025 - Present
+        caption: Beijing, China • Aug 2025 - Present
         link: 
-        quote: >
-          Beijing, China
+        quote:
         description: | # this will include new lines to allow paragraphs
           **Machine Learning Cross-Sectional Model:** Built LightGBM and MLP models to predict cross-sectional returns
           - LightGBM: Trained on 1k+ alpha factors with rolling windows; 2021–2023 backtest (long top-30%) hit 42% AR, Sharpe 2.25, max DD −8.8%; 2025 live-simulated trading, AR 30%+ after portfolio optimization
@@ -105,10 +104,9 @@ content:
       - layout: right
         title: Ant Group (Alipay)
         sub_title: LLM Algorithm Intern
-        caption: Apr 2025 - Aug 2025
+        caption: Shanghai, China • Apr 2025 - Aug 2025
         link: 
-        quote: >
-          Shanghai, China
+        quote:
         description: | # this will include new lines to allow paragraphs
           Engineered ProQ model for automated data screening on Ling LLM; fine-tuned quality-filtering LLMs and streamlined the pipeline
           
@@ -118,10 +116,9 @@ content:
       - layout: right
         title: Panoramic Hills Capital (AUM $4B Hedge Fund)
         sub_title: Crypto Research Intern
-        caption: Jan 2025 - Mar 2025
+        caption: Shanghai, China • Jan 2025 - Mar 2025
         link: 
-        quote: >
-          Shanghai, China
+        quote:
         description: | # this will include new lines to allow paragraphs
           Conducted crypto market monitoring and developed sentiment indices on crypto, providing insights for fund positioning
           
@@ -160,6 +157,9 @@ content:
           - title: GitHub Repository
             icon: fab fa-github
             url: https://github.com/yinshuo156/TS-Agent
+          - title: arXiv
+            icon: ai ai-arxiv
+            url: https://arxiv.org/abs/
         quote: >
           Jun 2025 - Sept 2025
         description: | # this will include new lines to allow paragraphs
@@ -192,6 +192,9 @@ content:
           - title: Published Paper
             icon: fas fa-file-alt
             url: https://link.springer.com/article/10.1007/s11071-024-10343-1
+          - title: arXiv
+            icon: ai ai-arxiv
+            url: https://arxiv.org/abs/
         quote: >
           Feb 2024 - Sept 2024
         description: | # this will include new lines to allow paragraphs
