@@ -3,3 +3,29 @@
 ---
 
 @import 'modern-resume-theme';
+
+// Custom styles to fix alignment issues
+.contact-info {
+  text-align: left;
+  
+  p {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+  }
+}
+
+// Fix profile picture and about text alignment
+.about-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  
+  .profile-image {
+    flex-shrink: 0;
+  }
+  
+  .about-text {
+    flex: 1;
+  }
+}
