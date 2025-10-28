@@ -191,6 +191,21 @@ content:
           We propose **OGDiff**, a novel OSDG framework that replaces expensive second-order meta-learning with a conditional diffusion process. This avoids inner-loop backpropagation, reducing computational costs and improving stability. We also introduce the **MSDFF** module to better capture both fine- and coarse-grained features, enhancing recognition of known and unknown classes. OGDiff achieves state-of-the-art performance on OSDG benchmarks while significantly lowering training costs.
       - layout: left
         border: weak
+        title: "CtrlVSR: Controllable Video Super-Resolution via Motion-Aware Latent World Modeling"
+        link: 
+        link_text: 
+        additional_links:
+          - title: arXiv
+            icon: ai ai-arxiv
+            url: https://arxiv.org/abs/
+        quote: >
+          In Submission
+        description: | # this will include new lines to allow paragraphs
+          **Authors:** Rong Fu, Chunlei Meng, **Shuo Yin**, Zijian Zhang, Yingrui Ji, Tianxiang Xu, Chenhao Wang, Weizhi Tang, Simon James Fong
+          
+          We propose **CtrlVSR**, a video super-resolution method that forecasts high-resolution frames by leveraging motion cues. The model encodes low-resolution frames and motion data, then generates enhanced outputs with controllable adjustments like sharpening or blur removal. CtrlVSR achieves superior results on 4K and 8K footage, offering flexibility without requiring ultra-high-resolution training data.
+      - layout: left
+        border: weak
         title: LNG Freight Rate Multifractal Analysis and Trading Strategy
         link: https://github.com/yinshuo156/Code_LNG
         link_text: GitHub Repository
