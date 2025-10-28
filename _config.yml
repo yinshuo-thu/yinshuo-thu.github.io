@@ -78,14 +78,8 @@ content:
         caption: Shanghai, China • Sept 2021 - Jun 2025
         quote:
         description: | # this will include new lines to allow paragraphs
-          **Academic Performance:** 
-          • GPA: 3.75/4.0
-          • Outstanding Graduate
-          • Merit Student Award  
-          • First Class Academic Scholarship
-          
+          **Academic Performance:** GPA: 3.75/4.0 | Outstanding Graduate | Merit Student Award | First Class Academic Scholarship
           **Core Courses:** Data Structure (A), Methods in Mathematical Physics (A), Biostatistics (A-), Medical Robot Control (A)
-          
           **Research:** Multimodal LLM (AAAI, ICLR); Financial Time Series (SCI Q2 journal); Agent, Reinforcement Learning (CCF-B conf.)
   - title: Internship Experience
     layout: list
@@ -152,7 +146,7 @@ content:
           - Improved strategy generation beyond baseline by over 10%, with strategy performance close to top-tier LLMs (e.g., DeepSeek-R1)
 
           ![TS-Agent Framework](assets/TS-Agent.png)
-        - layout: left
+      - layout: left
         border: weak
         title: "AlphaMaster: Comprehensive Alpha Discovery and Agent Implementation"
         link: https://github.com/yinshuo156/AlphaMaster
@@ -172,7 +166,7 @@ content:
           - Genetic algorithm: Encoded factor expressions and applied crossover/mutation; selected robust factors using quantitative metrics
           
           **Factor alignment & Alpha reports:** Developed factor alignment and filtering framework for A-shares and cryptocurrencies, implementing data cleansing, dual-chain dynamic iteration, and agent-based reporting
-        - layout: left
+      - layout: left
         border: weak
         title: "CtrlVSR: Controllable Video Super-Resolution via Motion-Aware Latent World Modeling"
         link: 
