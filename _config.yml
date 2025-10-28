@@ -51,7 +51,7 @@ about_profile_image: assets/head.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am currently pursuing a Master's in Finance at Tsinghua University, having completed my Bachelor's degree in Engineering at Shanghai Jiao Tong University. My undergraduate academic journey spans multiple fields, including computer vision, natural language processing, and time series analysis, with publications in these areas.
 
-  As a Quantitative Research Intern, I apply advanced deep learning techniques and large language models to quantitative modeling and factor discovery. My work merges cutting-edge AI research with practical financial applications, focusing on developing innovative approaches to algorithmic trading and market analysis.
+  As a Quantitative Research Intern, I apply advanced deep learning techniques and large language models to quantitative modeling and factor discovery. With great enthusiasm and confidence in the development of LLM and AI technologies, I actively keep pace with the latest AI advancements and engage in collaborative projects to push the boundaries of what's possible.
 
   I am open to opportunities in Quantitative Research (QR) and Large Language Models (LLM), and I’m always excited to connect with others, whether to collaborate or just for a friendly chat. Feel free to reach out to me via WeChat (Elon\_Yin) or email at [yinelon@gmail.com](mailto:yinelon@gmail.com). For more detailed information about my background and experience, you can download my bilingual resume here: [Chinese & English Resume](assets/Resume-ShuoYin-CN:EN.pdf).
 
@@ -271,7 +271,7 @@ content:
           This research presents a zero-shot OCT segmentation method that overcomes the limitations of traditional deep learning approaches, which require re-labeling and retraining for unseen Regions of Interest (ROIs). The method only needs box or point prompts for ROIs in the first frame, enabling automatic segmentation in subsequent frames.
       - layout: left
         border: weak
-        title: "<img src='assets/Kaggle_logo.png' alt='Kaggle' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Kaggle: Optiver Trading at the Close"
+        title: "Kaggle: Optiver Trading at the Close"
         link: https://www.kaggle.com/competitions/optiver-trading-at-the-close
         link_text: Competition Link
         additional_links:
