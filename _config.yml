@@ -51,9 +51,11 @@ about_profile_image: assets/head.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am currently pursuing a Master's in Finance at Tsinghua University, having completed my Bachelor's degree in Engineering at Shanghai Jiao Tong University. My undergraduate academic journey spans multiple fields, including computer vision, natural language processing, and time series analysis, with publications in these areas.
 
-  As a Quantitative Research Intern, I apply advanced deep learning techniques and large language models to quantitative modeling and factor discovery. With great enthusiasm and confidence in the development of LLM and AI technologies, I actively keep pace with the latest AI advancements and engage in collaborative projects to push the boundaries of what's possible.
+  As a Quantitative Research Intern now, I apply deep learning techniques to quantitative modeling and factor discovery. With great enthusiasm and confidence in the development of LLM and AI technologies, I actively keep pace with the latest AI advancements.
 
-  I am open to opportunities in Quantitative Research (QR) and Large Language Models (LLM), and I’m always excited to connect with others, whether to collaborate or just for a friendly chat. Feel free to reach out to me via WeChat (Elon\_Yin) or email at [yinelon@gmail.com](mailto:yinelon@gmail.com). For more detailed information about my background and experience, you can download my bilingual resume here: [Chinese & English Resume](assets/Resume-ShuoYin-CN:EN.pdf).
+  I am open to opportunities in Quantitative Research (QR) and Large Language Models (LLM), and I’m always excited to connect with others, whether to collaborate or just for a friendly chat. Feel free to reach out to me via WeChat (Elon\_Yin) or email at [yinelon@gmail.com](mailto:yinelon@gmail.com). 
+  
+  For more detailed information about my background and experience, you can download my bilingual resume here: [Chinese & English Resume](assets/Resume-ShuoYin-CN:EN.pdf).
 
 
 content:
@@ -137,7 +139,7 @@ content:
         quote: >
           Jun 2025 - Sept 2025, ICASSP 2026 In Submission
         description: | # this will include new lines to allow paragraphs
-          **Authors:** ***Shuo Yin***, *Jiahong Zhu*, *Tianlong Yang*, *Yuqiao Liu*
+          Authors: ***Shuo Yin***, *Jiahong Zhu*, *Tianlong Yang*, *Yuqiao Liu*
           
           - Developed TS-Agent, a reinforcement learning–based agent for financial time-series forecasting, using LLM-generated strategy pool for exploration-enhanced fine-tuning, then seeding stepwise RL from selected strategies with custom RL module
           
@@ -159,7 +161,7 @@ content:
         quote: >
           Sep 2025 - Present, In Submission
         description: | # this will include new lines to allow paragraphs
-          **Authors:** ***Shuo Yin***, *Biao Wu*, *Zeyu Zhang*, *Huacan Wang*, *Rui Xu*, *Ronghao Chen*, *Meng Fang*, *Ling Chen*, *Hao Tang*
+          Authors: ***Shuo Yin***, *Biao Wu*, *Zeyu Zhang*, *Huacan Wang*, *Rui Xu*, *Ronghao Chen*, *Meng Fang*, *Ling Chen*, *Hao Tang*
           
           This research introduces two new evaluation metrics for multimodal learning: **BagelScore**, which improves image-text alignment by leveraging unified multimodal models, and **EditingScore**, designed to assess image editing quality based on transformation difficulty in generative models. These metrics address the limitations of existing approaches, offering a more principled, reasoning-based evaluation.
           
@@ -196,7 +198,7 @@ content:
         quote: >
           Aug 2025 - Present, In Submission
         description: | # this will include new lines to allow paragraphs
-          **Authors:** *Rong Fu*, *Chunlei Meng*, ***Shuo Yin***, *Zijian Zhang*, *Yingrui Ji*, *Tianxiang Xu*, *Chenhao Wang*, *Weizhi Tang*, *Simon James Fong*
+          Authors: *Rong Fu*, *Chunlei Meng*, ***Shuo Yin***, *Zijian Zhang*, *Yingrui Ji*, *Tianxiang Xu*, *Chenhao Wang*, *Weizhi Tang*, *Simon James Fong*
           
           **CtrlVSR** is a video super-resolution method that forecasts high-resolution frames by leveraging motion cues. The model encodes low-resolution frames and motion data, then generates enhanced outputs with controllable adjustments like sharpening or blur removal. CtrlVSR achieves superior results on 4K and 8K footage, offering flexibility without requiring ultra-high-resolution training data.
       - layout: left
@@ -211,7 +213,7 @@ content:
         quote: >
           Aug 2025 - Present, In Submission
         description: | # this will include new lines to allow paragraphs
-          **Authors:** *Rong Fu*, *Chunlei Meng*, ***Shuo Yin***, *Zijian Zhang*, *Weizhi Tang*, *Shaobo Wang*, *Youjin Wang*, *Simon James Fong*
+          Authors: *Rong Fu*, *Chunlei Meng*, ***Shuo Yin***, *Zijian Zhang*, *Weizhi Tang*, *Shaobo Wang*, *Youjin Wang*, *Simon James Fong*
           
           This research presents a vision-based approach that abandons text and allows visual features to communicate through a graph of image prototypes. Using self-supervised learning, the model uncovers emergent semantic structures, where meaning is determined purely by vision. Text is only used for interpretation, not during training. This method demonstrates that vision alone can recognize and name the world without relying on textual input.
 
@@ -228,7 +230,7 @@ content:
         quote: >
           Jul 2025 - Present, In Submission
         description: | # this will include new lines to allow paragraphs
-          **Authors:** *Haidong Kang*, ***Shuo Yin***, *Huiquan Zhang*
+          Authors: *Haidong Kang*, ***Shuo Yin***, *Huiquan Zhang*
           
           This work introduces **OGDiff**, a novel OSDG framework that replaces expensive second-order meta-learning with a conditional diffusion process. This avoids inner-loop backpropagation, reducing computational costs and improving stability. The **MSDFF** module is also introduced to better capture both fine- and coarse-grained features, enhancing recognition of known and unknown classes. OGDiff achieves state-of-the-art performance on OSDG benchmarks while significantly lowering training costs.
 
@@ -245,7 +247,9 @@ content:
         quote: >
           Feb 2024 - Sept 2024, Published in Nonlinear Dynamics (SCI Q2)
         description: | # this will include new lines to allow paragraphs
-          **Authors:** *Feier Chen*, ***Shuo Yin***, *Jiahang Zhang*, *Yi Sha* & *Huaxiao Ji*
+          Authors: *Feier Chen*, ***Shuo Yin***, *Jiahang Zhang*, *Yi Sha* & *Huaxiao Ji*
+
+          Based on MF-DFA and multi-peak analysis, the multifractality of LNG spot freight rates was verified, and factor signals were established, including spectral decomposition components, peak positions, and long-range correlation strength. Using methods such as LSTM, LNG futures return predictions were made, incorporating indicators like the Hurst exponent to achieve strategy switching and window smoothing. The backtest results showed an annualized return rate exceeding 36%.
       - layout: left
         border: weak
         title: "Zero-shot OCT segmentation for volumetric and live-streaming data"
@@ -258,7 +262,7 @@ content:
         quote: >
           Sep 2023 - Feb 2024, Published in SPIE
         description: | # this will include new lines to allow paragraphs
-          **Authors:** *Kaixiang Zhang*, *Haoran Zhang*, *Qi Lan*, *Zesen Chen*, ***Shuo Yin***, *Yongqi Wei*, *Zehao Wang*, *Jianlong Yang*
+          Authors: *Kaixiang Zhang*, *Haoran Zhang*, *Qi Lan*, *Zesen Chen*, ***Shuo Yin***, *Yongqi Wei*, *Zehao Wang*, *Jianlong Yang*
           
           This research presents a zero-shot OCT segmentation method that overcomes the limitations of traditional deep learning approaches, which require re-labeling and retraining for unseen Regions of Interest (ROIs). The method only needs box or point prompts for ROIs in the first frame, enabling automatic segmentation in subsequent frames.
       - layout: left
@@ -273,11 +277,11 @@ content:
         quote: >
           Sep 2023 - Mar 2024, Bronze Medalist
         description: | # this will include new lines to allow paragraphs
-          Built LightGBM-based predictive model, forecasting Nasdaq stock closing price movements from order book and auction data.
+          - Built LightGBM-based predictive model, forecasting Nasdaq stock closing price movements from order book and auction data.
           
-          Implemented purged time-series cross-validation to mitigate lookahead bias, applied hyperparameter tuning with early stopping, and retrained final ensemble model
+          - Implemented purged time-series cross-validation to mitigate lookahead bias, applied hyperparameter tuning with early stopping, and retrained final ensemble model
           
-          Achieved Mean Absolute Error (MAE) of 5.473 on validation, earning Bronze Medal ranking
+          - Achieved Mean Absolute Error (MAE) of 5.473 on validation, earning Bronze Medal ranking
       - layout: left
         border: weak
         title: "BERT-based ESG NLP Scoring System"
@@ -290,12 +294,9 @@ content:
         quote: >
           Jul 2022 - Feb 2023, SJTU Outstanding PRP Project
         description: | # this will include new lines to allow paragraphs
-          **Authors:** ***Shuo Yin***
           
-          Independently completed the full pipeline of data collection, deployment, and model training for an ESG (Environmental, Social, and Governance) rating system based on BERT fine-tuning
-          
-          - Built a real-time database by web scraping public opinions and disclosure information from trading platforms using proxy pools to enhance crawler efficiency
-          - Fine-tuned BERT NLP model to establish a text sentiment prediction framework, providing ESG ratings for 3,000+ listed companies based on mainstream ESG rating indicators
+          Built a real-time database by web scraping public opinions and disclosure information from trading platforms using proxy pools to enhance crawler efficiency. 
+          Fine-tuned BERT NLP model to establish a text sentiment prediction framework, providing ESG ratings for 3,000+ listed companies based on mainstream ESG rating indicators
   - title: Additional Information
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -305,7 +306,7 @@ content:
       - **Chinese:** Native Speaker
 
       ## Hobbies & Interests
-      - **Sports:** Enjoy various sports, play basketball daily, currently learning tennis and badminton. Always happy to connect with workout buddies or sports partners!
+      - **Sports:** Enjoy various sports, play basketball daily, currently learning tennis and badminton. Always happy to connect with workout buddies or sports partners! :)
 
 # Footer
 footer_show_references: false
