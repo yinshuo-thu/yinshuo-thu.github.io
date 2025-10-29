@@ -214,6 +214,8 @@ content:
           **Authors:** *Rong Fu*, *Chunlei Meng*, ***Shuo Yin***, *Zijian Zhang*, *Weizhi Tang*, *Shaobo Wang*, *Youjin Wang*, *Simon James Fong*
           
           This research presents a vision-based approach that abandons text and allows visual features to communicate through a graph of image prototypes. Using self-supervised learning, the model uncovers emergent semantic structures, where meaning is determined purely by vision. Text is only used for interpretation, not during training. This method demonstrates that vision alone can recognize and name the world without relying on textual input.
+
+          ![EVR Framework](assets/EVR.png)
       - layout: left
         border: weak
         title: "Revolutionizing Open Set Domain Generalization: Learning to generalize via Conditional Diffusion Without Gradient"
@@ -276,6 +278,24 @@ content:
           Implemented purged time-series cross-validation to mitigate lookahead bias, applied hyperparameter tuning with early stopping, and retrained final ensemble model
           
           Achieved Mean Absolute Error (MAE) of 5.473 on validation, earning Bronze Medal ranking
+      - layout: left
+        border: weak
+        title: "BERT-based ESG NLP Scoring System"
+        link: assets/PRP.pdf
+        link_text: Project Report
+        additional_links:
+          - title: Project Report
+            icon: fas fa-file-pdf
+            url: assets/PRP.pdf
+        quote: >
+          Jul 2022 - Feb 2023, SJTU Outstanding PRP Project
+        description: | # this will include new lines to allow paragraphs
+          **Authors:** ***Shuo Yin***
+          
+          Independently completed the full pipeline of data collection, deployment, and model training for an ESG (Environmental, Social, and Governance) rating system based on BERT fine-tuning
+          
+          - Built a real-time database by web scraping public opinions and disclosure information from trading platforms using proxy pools to enhance crawler efficiency
+          - Fine-tuned BERT NLP model to establish a text sentiment prediction framework, providing ESG ratings for 3,000+ listed companies based on mainstream ESG rating indicators
   - title: Additional Information
     layout: text
     content: | # this will include new lines to allow paragraphs
