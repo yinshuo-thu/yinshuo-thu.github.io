@@ -75,7 +75,8 @@ content:
         caption: Shanghai, China • Sept 2021 - Jun 2025
         quote:
         description: | # this will include new lines to allow paragraphs
-          **Academic Performance:** GPA: 3.75/4.0|Outstanding Graduate|Merit Student Award|First Class Academic Scholarship
+          
+          **Awards:** Outstanding Graduate, Merit Student Award, First Class Academic Scholarship
           
           **Core Courses:** Data Structure (A), Methods in Mathematical Physics (A), Biostatistics (A-), Medical Robot Control (A)
           
@@ -84,12 +85,14 @@ content:
     layout: list
     content:
       - layout: left
-        title: Lingjun Investment (灵均投资)
+        title: "<img src='assets/lingjun.png' alt='Lingjun Investment' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Lingjun Investment"
         sub_title: Quantitative Research Intern
         caption: Beijing, China • Aug 2025 - Present
         link: 
         quote:
         description: | # this will include new lines to allow paragraphs
+          Applied machine learning–based quantitative modeling methods to refine equity strategies (MLP, GRU, Transformer)
+
           **Machine Learning Cross-Sectional Model:** Built LightGBM and MLP models to predict cross-sectional returns
           - **LightGBM** (**AR 42%**): Trained on 1k+ alpha factors with rolling windows; implemented parallel training configuration; live-simulated trading shows **30%+** annualized returns after portfolio optimization
           - **MLP** (**AR 48.2%**): Designed and tuned MLP with rolling predictions; performed systematic hyperparameter tuning (learning rate, epochs, network structure); recent live-simulated trading shows **40%+** annualized returns
@@ -98,7 +101,7 @@ content:
           - **GRU** (**AR 57%**): Added input-projection block, bidirectional GRU encoder, and temporal-attention pooling; improved backtest returns
           - **Transformer** (**AR 44%**): Implemented encoder-only Transformer with linear feature mapping and sinusoidal positional encoding; currently developing multi-scale temporal fusion
       - layout: left
-        title: Ant Group (Alipay)
+        title: "<img src='assets/ant.jpg' alt='Ant Group' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Ant Group (Alipay)"
         sub_title: LLM Algorithm Intern
         caption: Shanghai, China • Apr 2025 - Aug 2025
         link: 
@@ -110,7 +113,7 @@ content:
 
           ![ProQ Framework](assets/ProQ.png)
       - layout: left
-        title: Panoramic Hills Capital (AUM $4B Hedge Fund)
+        title: "<img src='assets/phc.png' alt='Panoramic Hills Capital' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Panoramic Hills Capital (AUM $4B Hedge Fund)"
         sub_title: Crypto Research Intern
         caption: Shanghai, China • Jan 2025 - Mar 2025
         link: 
@@ -141,9 +144,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           Authors: ***Shuo Yin***, *Jiahong Zhu*, *Tianlong Yang*, *Yuqiao Liu*
           
-          - Developed TS-Agent, a reinforcement learning–based agent for financial time-series forecasting, using LLM-generated strategy pool for exploration-enhanced fine-tuning, then seeding stepwise RL from selected strategies with custom RL module
-          
-          - Improved strategy generation beyond baseline by over 10%, with strategy performance close to top-tier LLMs (e.g., DeepSeek-R1)
+          Developed TS-Agent, a reinforcement learning–based agent for financial time-series forecasting, using LLM-generated strategy pool for exploration-enhanced fine-tuning, then seeding stepwise RL from selected strategies with custom RL module.
+          Improved strategy generation beyond baseline by over 10%, with strategy performance close to top-tier LLMs (e.g., DeepSeek-R1)
 
           ![TS-Agent Framework](assets/TS-Agent.png)
       - layout: left
@@ -176,16 +178,11 @@ content:
             icon: fab fa-github
             url: https://github.com/yinshuo156/AlphaMaster
         quote: >
-          Aug 2025 - Present
+          Aug 2025 - Present, In Submission
         description: | # this will include new lines to allow paragraphs
-          Applied machine learning–based quantitative modeling methods to refine equity strategies (MLP, GRU, Transformer)
           
-          **Multi-source factor generation:** Integrated Agents, Genetic Algorithms, and Flow Networks to produce diversified alpha factors
-          - Flow Networks: Added structure-aware encoder with RGCN to capture mathematical relations; used flow-network exploration with dense, multi-aspect rewards to generate diverse, stable, and efficient alpha candidates
-          - Agent pipeline: Employed multi-agent discovery for interpretable, decay-resistant factors; leveraged Qlib for hypothesis formation, factor construction, and walk-forward backtesting to validate efficacy
-          - Genetic algorithm: Encoded factor expressions and applied crossover/mutation; selected robust factors using quantitative metrics
-          
-          **Factor alignment & Alpha reports:** Developed factor alignment and filtering framework for A-shares and cryptocurrencies, implementing data cleansing, dual-chain dynamic iteration, and agent-based reporting
+          Integrated Agents, Genetic Algorithms, and Flow Networks to produce diversified alpha factors
+          Developed factor alignment and filtering framework for A-shares and cryptocurrencies, implementing data cleansing, dual-chain dynamic iteration, and agent-based reporting
       - layout: left
         border: weak
         title: "CtrlVSR: Controllable Video Super-Resolution via Motion-Aware Latent World Modeling"
@@ -265,6 +262,8 @@ content:
           Authors: *Kaixiang Zhang*, *Haoran Zhang*, *Qi Lan*, *Zesen Chen*, ***Shuo Yin***, *Yongqi Wei*, *Zehao Wang*, *Jianlong Yang*
           
           This research presents a zero-shot OCT segmentation method that overcomes the limitations of traditional deep learning approaches, which require re-labeling and retraining for unseen Regions of Interest (ROIs). The method only needs box or point prompts for ROIs in the first frame, enabling automatic segmentation in subsequent frames.
+          
+          <img src='assets/OCT1.png' alt='OCT Method' style='width: 30%; display: inline-block; margin-right: 10px;'> <img src='assets/OCT2.png' alt='OCT Results' style='width: 68%; display: inline-block;'>
       - layout: left
         border: weak
         title: "Kaggle: Optiver Trading at the Close"
