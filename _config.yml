@@ -277,7 +277,7 @@ content:
       - layout: left
         border: weak
         title: "BERT-based ESG NLP Scoring System"
-        link: /assets/PRP.pdf
+        link: https://github.com/yinshuo-thu/yinshuo-thu.github.io/blob/master/assets/PRP.pdf
         link_text: Project Report
         additional_links:
           - title: Project Report
