@@ -282,7 +282,7 @@ content:
         additional_links:
           - title: Project Report
             icon: fas fa-file-pdf
-            url: /assets/PRP.pdf
+            url: https://github.com/yinshuo-thu/yinshuo-thu.github.io/blob/master/assets/PRP.pdf
         quote: >
           Jul 2022 - Feb 2023, SJTU Outstanding PRP Project
         description: | # this will include new lines to allow paragraphs
