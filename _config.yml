@@ -55,7 +55,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   I am open to opportunities in Quantitative Research (QR) and Large Language Models (LLM), and I’m always excited to connect with others, whether to collaborate or just for a friendly chat. Feel free to reach out to me via WeChat (Elon\_Yin) or email at [yinelon@gmail.com](mailto:yinelon@gmail.com). 
   
-  For more detailed information about my background and experience, you can download my bilingual resume here: [Chinese & English Resume](assets/Resume-ShuoYin-CN:EN.pdf).
+  For more detailed information about my background and experience, you can download my bilingual resume here: [Chinese & English Resume](assets/Resume-ShuoYin-1101-pub.pdf).
 
 
 content:
@@ -120,9 +120,7 @@ content:
         quote:
         description: | # this will include new lines to allow paragraphs
           Conducted crypto market monitoring and developed sentiment indices on crypto, providing insights for fund positioning
-          
-          - **NLP Sentiment Index Modeling:** Built scrapers and real-time pipelines to source, aggregate, and filter crypto feeds; fine-tuned BERT sentiment model on collected data to produce index used to guide position sizing
-          
+          - **NLP Sentiment Index Modeling:** Engineered quantitative sentiment indicator; curated datasets from X/Crypto News, LoRA-fine-tuned FinBERT on 8k labeled samples (cross-entropy loss, F1=0.91), yielding normalized daily scores [-1,1] to guide BTC trading
           - **Crypto Analysis:** Monitored daily crypto trends; constructed financial models for BTC miners (MARA, CLSK, RIOT, etc.)
   - title: Research & Publications
     layout: list # Type of content section (list/text)
