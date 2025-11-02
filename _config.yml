@@ -277,12 +277,12 @@ content:
       - layout: left
         border: weak
         title: "BERT-based ESG NLP Scoring System"
-        link: assets/PRP.pdf
+        link: /assets/PRP.pdf
         link_text: Project Report
         additional_links:
           - title: Project Report
             icon: fas fa-file-pdf
-            url: assets/PRP.pdf
+            url: /assets/PRP.pdf
         quote: >
           Jul 2022 - Feb 2023, SJTU Outstanding PRP Project
         description: | # this will include new lines to allow paragraphs
