@@ -91,15 +91,12 @@ content:
         link: 
         quote:
         description: | # this will include new lines to allow paragraphs
-          Applied machine learning–based quantitative modeling methods to refine equity strategies (MLP, GRU, Transformer)
-
-          **Machine Learning Cross-Sectional Model:** Built LightGBM and MLP models to predict cross-sectional returns
-          - **LightGBM** (**AR 42%**): Trained on 1k+ alpha factors with rolling windows; implemented parallel training configuration; live-simulated trading shows **30%+** annualized returns after portfolio optimization
-          - **MLP** (**AR 48.2%**): Designed and tuned MLP with rolling predictions; performed systematic hyperparameter tuning (learning rate, epochs, network structure); recent live-simulated trading shows **40%+** annualized returns
-          
-          **Deep Learning Time Series Strategy:** Developed GRU and Transformer baselines, with MoE combination attempts
-          - **GRU** (**AR 57%**): Added input-projection block, bidirectional GRU encoder, and temporal-attention pooling; improved backtest returns
-          - **Transformer** (**AR 44%**): Implemented encoder-only Transformer with linear feature mapping and sinusoidal positional encoding; currently developing multi-scale temporal fusion
+          Machine Learning Cross-Sectional Model: Built LightGBM and MLP models to predict cross-sectional returns
+          - LightGBM (AR 42%): LightGBM with 1k+ Alpha factor library for A-shares; integrate GAM for nonlinear main effects and EFB for high-dimensional interactions
+          - MLP(AR 48.2%: MLP with TabNet-style feature attention and adaptive DropPath for overfitting prevention; hyperparameter tuning (epochs, LR, architecture)
+          Deep Learning Time Series Strategy: Developed GRU and Transformer baselines, with MoE combination attempts
+          - GRU(AR 57%): Nonlinear input projection (linear mapping, LayerNorm, GELU); residual bidirectional GRU encoding, temporal attention aggregation, and MLP output
+          - Transformer(AR 44%): Linear projection with sinusoidal-cosine positional encoding; Encoder-Only architecture with ProbSparse self-attention and multi-scale decomposition; mixed-precision training and gradient norm clipping.
       - layout: left
         title: "<img src='assets/ant.jpg' alt='Ant Group' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Ant Group (Alipay)"
         sub_title: LLM Algorithm Intern
