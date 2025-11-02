@@ -259,7 +259,7 @@ content:
           
           This research presents a zero-shot OCT segmentation method that overcomes the limitations of traditional deep learning approaches, which require re-labeling and retraining for unseen Regions of Interest (ROIs). The method only needs box or point prompts for ROIs in the first frame, enabling automatic segmentation in subsequent frames.
           
-          <img src='assets/OCT1.png' alt='OCT Method' style='width: 30%; display: inline-block; margin-right: 10px;'> <img src='assets/OCT2.png' alt='OCT Results' style='width: 68%; display: inline-block;'>
+          <img src='assets/OCT1.png' alt='OCT Method' style='width: 20%; display: inline-block; margin-right: 10px;'> <img src='assets/OCT2.png' alt='OCT Results' style='width: 68%; display: inline-block;'>
       - layout: left
         border: weak
         title: "Kaggle: Optiver Trading at the Close"
