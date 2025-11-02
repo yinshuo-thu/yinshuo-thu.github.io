@@ -65,14 +65,14 @@ content:
       - layout: top-right
         title: "<img src='assets/THU.png' alt='Tsinghua University' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Tsinghua University, School of Economics and Management"
         sub_title: Master of Finance
-        caption: Beijing, China • Sept 2025 - Jun 2027
+        caption: Beijing • Sept 2025 - Jun 2027
         quote:
         description: | # this will include new lines to allow paragraphs
           **Current Courses:** Large Language Models and Generative AI, Financial Derivatives, Financial Data Analysis, Introduction to FinTech
       - layout: top-right
         title: "<img src='assets/SJTU.png' alt='Shanghai Jiao Tong University' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Shanghai Jiao Tong University, School of Biomedical Engineering"
         sub_title: Bachelor of Engineering (Electronic & Computer Eng. Track)
-        caption: Shanghai, China • Sept 2021 - Jun 2025
+        caption: Shanghai • Sept 2021 - Jun 2025
         quote:
         description: | # this will include new lines to allow paragraphs
           
@@ -87,20 +87,21 @@ content:
       - layout: left
         title: "<img src='assets/lingjun.png' alt='Lingjun Investment' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Lingjun Investment"
         sub_title: Quantitative Research Intern
-        caption: Beijing, China • Aug 2025 - Present
+        caption: Beijing • Aug 2025 - Present
         link: 
         quote:
         description: | # this will include new lines to allow paragraphs
           Machine Learning Cross-Sectional Model: Built LightGBM and MLP models to predict cross-sectional returns
-          - LightGBM (AR 42%): LightGBM with 1k+ Alpha factor library for A-shares; integrate GAM for nonlinear main effects and EFB for high-dimensional interactions
-          - MLP(AR 48.2%: MLP with TabNet-style feature attention and adaptive DropPath for overfitting prevention; hyperparameter tuning (epochs, LR, architecture)
+          - **LightGBM** (AR 42%): LightGBM with 1k+ Alpha factor library for A-shares; integrate GAM for nonlinear main effects and EFB for high-dimensional interactions
+          - **MLP**(AR 48.2%): MLP with TabNet-style feature attention and adaptive DropPath for overfitting prevention; hyperparameter tuning (epochs, LR, architecture)
+          
           Deep Learning Time Series Strategy: Developed GRU and Transformer baselines, with MoE combination attempts
-          - GRU(AR 57%): Nonlinear input projection (linear mapping, LayerNorm, GELU); residual bidirectional GRU encoding, temporal attention aggregation, and MLP output
-          - Transformer(AR 44%): Linear projection with sinusoidal-cosine positional encoding; Encoder-Only architecture with ProbSparse self-attention and multi-scale decomposition; mixed-precision training and gradient norm clipping.
+          - **GRU**(AR 57%): Nonlinear input projection (linear mapping, LayerNorm, GELU); residual bidirectional GRU encoding, temporal attention aggregation, and MLP output
+          - **Transformer**(AR 44%): Linear projection with sinusoidal-cosine positional encoding; Encoder-Only architecture with ProbSparse self-attention and multi-scale decomposition; mixed-precision training and gradient norm clipping.
       - layout: left
         title: "<img src='assets/ant.jpg' alt='Ant Group' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Ant Group (Alipay)"
         sub_title: LLM Algorithm Intern
-        caption: Shanghai, China • Apr 2025 - Aug 2025
+        caption: Shanghai • Apr 2025 - Aug 2025
         link: 
         quote:
         description: | # this will include new lines to allow paragraphs
@@ -112,7 +113,7 @@ content:
       - layout: left
         title: "<img src='assets/phc.png' alt='Panoramic Hills Capital' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Panoramic Hills Capital (AUM $4B Hedge Fund)"
         sub_title: Crypto Research Intern
-        caption: Shanghai, China • Jan 2025 - Mar 2025
+        caption: Shanghai • Jan 2025 - Mar 2025
         link: 
         quote:
         description: | # this will include new lines to allow paragraphs
@@ -224,7 +225,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Authors: *Haidong Kang*, ***Shuo Yin***, *Huiquan Zhang*
           
-          This work introduces **OGDiff**, a novel OSDG framework that replaces expensive second-order meta-learning with a conditional diffusion process. This avoids inner-loop backpropagation, reducing computational costs and improving stability. The **MSDFF** module is also introduced to better capture both fine- and coarse-grained features, enhancing recognition of known and unknown classes. OGDiff achieves state-of-the-art performance on OSDG benchmarks while significantly lowering training costs.
+          This work introduces **OGDiff**, a novel OSDG framework that replaces expensive second-order meta-learning with a conditional diffusion process. This avoids inner-loop backpropagation, reducing computational costs and improving stability. The **MSDFF** module is also introduced to better capture both fine- and coarse-grained features, enhancing recognition of known and unknown classes. 
 
           ![OGDiff Framework](assets/OGDiff.png)
       - layout: left
@@ -271,11 +272,8 @@ content:
         quote: >
           Sep 2023 - Mar 2024, Bronze Medalist
         description: | # this will include new lines to allow paragraphs
-          - Built LightGBM-based predictive model, forecasting Nasdaq stock closing price movements from order book and auction data.
-          
-          - Implemented purged time-series cross-validation to mitigate lookahead bias, applied hyperparameter tuning with early stopping, and retrained final ensemble model
-          
-          - Achieved Mean Absolute Error (MAE) of 5.473 on validation, earning Bronze Medal ranking
+          - Derived high-frequency market microstructure factors from order book and auction data, including buy-sell imbalance ratios, price-volume triple barriers, reference price lags/differentials, statistical moments, depth-weighted spreads, and volatility proxies 
+          - Built LightGBM model with rolling training and Optuna-based hyperparameter optimization; achieved MAE of 5.473 on validation set
       - layout: left
         border: weak
         title: "BERT-based ESG NLP Scoring System"
