@@ -25,7 +25,7 @@ stackoverflow_username:
 dribbble_username: 
 facebook_username: 
 flickr_username: 
-instagram_username: 
+instagram_username: yinshuo156
 linkedin_username: shuoyin
 xing_username: 
 pinterest_username: 
@@ -126,12 +126,12 @@ content:
       - layout: left
         border: weak
         title: "TS-Agent: RL Empowered LLM Agents for Financial Time Series Forecasting"
-        link: https://github.com/yinshuo156/TS-Agent
+        link: https://github.com/yinshuo-thu/TS-Agent
         link_text: GitHub Repository
         additional_links:
           - title: ""
             icon: fab fa-github
-            url: https://github.com/yinshuo156/TS-Agent
+            url: https://github.com/yinshuo-thu/TS-Agent
           - title: arXiv
             icon: ai ai-arxiv
             url: https://arxiv.org/abs/
@@ -167,12 +167,12 @@ content:
       - layout: left
         border: weak
         title: "AlphaMaster: Comprehensive Alpha Discovery and Agent Implementation"
-        link: https://github.com/yinshuo156/AlphaMaster
+        link: https://github.com/yinshuo-thu/AlphaMaster
         link_text: GitHub Repository
         additional_links:
           - title: ""
             icon: fab fa-github
-            url: https://github.com/yinshuo156/AlphaMaster
+            url: https://github.com/yinshuo-thu/AlphaMaster
         quote: >
           Aug 2025 - Present, In Submission
         description: | # this will include new lines to allow paragraphs
