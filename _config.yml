@@ -49,9 +49,9 @@ googlescholar_username:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: assets/head.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am currently pursuing a Master's in Finance at Tsinghua University, having completed my Bachelor's degree in Engineering at Shanghai Jiao Tong University. My undergraduate academic journey spans multiple fields, including computer vision, natural language processing, and time series analysis, with publications in these areas.
+  I am currently pursuing a Master's in Finance at Tsinghua University, having completed my Bachelor's degree in Engineering at Shanghai Jiao Tong University. My undergraduate academic journey spans multiple fields, including computer vision, natural language processing, and time series analysis. These experiences continue to inspire and inform my current work.
 
-  I apply deep learning techniques to quantitative modeling and factor discovery. With strong enthusiasm and confidence in the rapid development of LLMs and AI technologies, I actively keep up with the latest advancements in the field.
+  Now I am applying deep learning techniques to quantitative modeling and factor discovery. Also, with strong enthusiasm and confidence in the rapid development of LLMs and AI technologies, I actively keep up with the latest advancements in the field.
 
   I am open to opportunities in Quantitative Research, and I’m always excited to connect with others, whether to collaborate or just for a friendly chat. Feel free to reach out to me via WeChat (Elon\_Yin) or email at [yinelon@gmail.com](mailto:yinelon@gmail.com). 
   
@@ -266,7 +266,7 @@ content:
         quote: >
           Feb 2024 - Sept 2024, Published in Nonlinear Dynamics (SCI Q2)
         description: | # this will include new lines to allow paragraphs
-          Authors: *Feier Chen*, ***Shuo Yin****, *Jiahang Zhang*, *Yi Sha* & *Huaxiao Ji*
+          Authors: *Feier Chen*, ***Shuo Yin* ***, *Jiahang Zhang*, *Yi Sha* & *Huaxiao Ji*
 
           Based on MF-DFA and multi-peak analysis, the multifractality of LNG spot freight rates was verified, and factor signals were established, including spectral decomposition components, peak positions, and long-range correlation strength. Using methods such as LSTM, LNG futures return predictions were made, incorporating indicators like the Hurst exponent to achieve strategy switching and window smoothing. The backtest results showed an annualized return rate exceeding 36%.
       - layout: left
