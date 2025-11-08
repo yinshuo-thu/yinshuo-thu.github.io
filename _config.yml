@@ -78,7 +78,7 @@ content:
           
           **Core Courses:** Data Structure (A), Methods in Mathematical Physics (A), Biostatistics (A-), Medical Robot Control (A)
           
-          **Teaching Assistant:** <img src='assets/NYU_SH.png' alt='NYU Shanghai' style='height: 16px; margin-right: 4px; vertical-align: middle;'>NYU Shanghai - Recommender Systems and Machine Learning
+          **Teaching Assistant:** <img src='assets/NYU_SH.png' alt='NYU Shanghai' style='height: 16px; margin-right: 4px; vertical-align: middle;'>NYU Shanghai - Recommender Systems, Machine Learning
   - title: Internship Experience
     layout: list
     content:
@@ -139,7 +139,6 @@ content:
           Authors: ***Shuo Yin***, *Jiahong Zhu*, *Tianlong Yang*, *Yuqiao Liu*
           
           Developed TS-Agent, a reinforcement learning–based agent for financial time-series forecasting, using LLM-generated strategy pool for exploration-enhanced fine-tuning, then seeding stepwise RL from selected strategies with custom RL module.
-          Improved strategy generation beyond baseline by over 10%, with strategy performance close to top-tier LLMs (e.g., DeepSeek-R1)
 
           ![TS-Agent Framework](assets/TS-Agent.png)
       - layout: left
