@@ -76,7 +76,7 @@ content:
           
           **Core Courses:** Data Structure (A), Methods in Mathematical Physics (A), Biostatistics (A-), Medical Robot Control (A)
           
-          **Teaching Assistant:** <img src='assets/NYU_SH.png' alt='NYU Shanghai' style='height: 16px; margin-right: 4px; vertical-align: middle;'>NYU Shanghai - Recommender Systems, Machine Learning
+          **Teaching Assistant:** <img src='assets/NYU_SH.png' alt='NYU Shanghai' style='height: 16px; margin-right: 4px; vertical-align: middle;'><a href='https://cs.shanghai.nyu.edu/' target='_blank'>NYU Shanghai</a> - Recommender Systems(CSCI-SHU 381), Machine Learning(CSCI-SHU 360)
   - title: Internship Experience
     layout: list
     content:
