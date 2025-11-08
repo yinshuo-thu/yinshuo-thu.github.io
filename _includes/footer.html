@@ -1,4 +1,4 @@
-<div class="container footer-container">
+<div class="container footer-container" style="position: relative;">
   <p>
     {{ site.name | escape }} -
     <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
@@ -6,16 +6,15 @@
       &nbsp;- {{ site.references_title | default: "References on request" }}
     {%- endif -%}
   </p>
-</div>
-
-<!-- Busuanzi visitor counter -->
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-<div style="position: fixed; bottom: 20px; right: 20px; background-color: rgba(255, 255, 255, 0.9); padding: 10px 15px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); font-size: 14px; z-index: 1000;">
-  <span id="busuanzi_container_site_pv" style="display: inline-block;">
-    👁️ Total Views: <span id="busuanzi_value_site_pv"></span>
-  </span>
-  <br>
-  <span id="busuanzi_container_site_uv" style="display: inline-block; margin-top: 5px;">
-    👤 Unique Visitors: <span id="busuanzi_value_site_uv"></span>
-  </span>
+  
+  <!-- Busuanzi visitor counter -->
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <div style="position: absolute; bottom: 10px; right: 20px; font-size: 12px; color: #666; text-align: right;">
+    <span id="busuanzi_container_site_pv" style="display: block;">
+      Total Views: <span id="busuanzi_value_site_pv"></span>
+    </span>
+    <span id="busuanzi_container_site_uv" style="display: block; margin-top: 3px;">
+      Unique Visitors: <span id="busuanzi_value_site_uv"></span>
+    </span>
+  </div>
 </div>
