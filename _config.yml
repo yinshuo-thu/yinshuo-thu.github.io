@@ -182,9 +182,12 @@ content:
       - layout: left
         border: weak
         title: "CtrlVSR: Controllable Video Super-Resolution via Motion-Aware Latent World Modeling"
-        link: 
-        link_text: 
+        link: /assets/CtrlVSR.pdf
+        link_text: Paper
         additional_links:
+          - title: Paper
+            icon: fas fa-file-pdf
+            url: /assets/CtrlVSR.pdf
           - title: arXiv
             icon: ai ai-arxiv
             url: https://arxiv.org/abs/
@@ -197,9 +200,12 @@ content:
       - layout: left
         border: weak
         title: "EVR: Eyesight-Only Visual Representation for Recognition without Language"
-        link: 
-        link_text: 
+        link: /assets/EVR.pdf
+        link_text: Paper
         additional_links:
+          - title: Paper
+            icon: fas fa-file-pdf
+            url: /assets/EVR.pdf
           - title: arXiv
             icon: ai ai-arxiv
             url: https://arxiv.org/abs/
