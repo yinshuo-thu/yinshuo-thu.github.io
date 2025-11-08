@@ -266,7 +266,7 @@ content:
         quote: >
           Feb 2024 - Sept 2024, Published in Nonlinear Dynamics (SCI Q2)
         description: | # this will include new lines to allow paragraphs
-          Authors: *Feier Chen*, ***Shuo Yin***, *Jiahang Zhang*, *Yi Sha* & *Huaxiao Ji*
+          Authors: *Feier Chen*, ***Shuo Yin****, *Jiahang Zhang*, *Yi Sha* & *Huaxiao Ji*
 
           Based on MF-DFA and multi-peak analysis, the multifractality of LNG spot freight rates was verified, and factor signals were established, including spectral decomposition components, peak positions, and long-range correlation strength. Using methods such as LSTM, LNG futures return predictions were made, incorporating indicators like the Hurst exponent to achieve strategy switching and window smoothing. The backtest results showed an annualized return rate exceeding 36%.
       - layout: left
