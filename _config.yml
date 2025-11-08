@@ -154,11 +154,11 @@ content:
             icon: fas fa-file-pdf
             url: /assets/QuantEval.pdf
         quote: >
-          Sep 2025 - Present, In Submission
+          Sep 2025 - Present, CCF-A In Submission
         description: | # this will include new lines to allow paragraphs
           Authors: *Zhaolu Kang*, *Junhao Gong*, *Wenqing Hu*, ***Shuo Yin***, *Zhicheng Fang*, *Yingjie He*, *Rong Fu*, *Eric Hanchen Jiang*, *Leqi Zheng*, *Xi Yang*, *Xiaoyou Chen*, *Richeng Xuan*
           
-          QuantEval is a new benchmark designed to evaluate Large Language Models (LLMs) in financial quantitative tasks. It assesses three areas: knowledge-based question answering, quantitative reasoning, and quantitative strategy coding. The benchmark uses data from real markets, public sources, and synthetic scenarios to reflect real-world challenges. Tests on many top LLMs show major performance gaps. To address this, we apply supervised fine-tuning and reinforcement learning to improve results.
+          QuantEval is a new benchmark designed to evaluate Large Language Models (LLMs) in financial quantitative tasks. It assesses three areas: knowledge-based question answering, quantitative reasoning, and quantitative strategy coding. Tests on many top LLMs show major performance gaps. To address this, we apply supervised fine-tuning and reinforcement learning to improve results.
 
           ![QuantEval Framework](assets/QuantEval.png)
       - layout: left
@@ -174,7 +174,7 @@ content:
             icon: ai ai-arxiv
             url: https://arxiv.org/abs/
         quote: >
-          Sep 2025 - Present, In Submission
+          Sep 2025 - Present, CCF-A In Submission
         description: | # this will include new lines to allow paragraphs
           Authors: ***Shuo Yin***, *Biao Wu*, *Zeyu Zhang*, *Huacan Wang*, *Rui Xu*, *Ronghao Chen*, *Meng Fang*, *Ling Chen*, *Hao Tang*
           
@@ -209,7 +209,7 @@ content:
             icon: ai ai-arxiv
             url: https://arxiv.org/abs/
         quote: >
-          Aug 2025 - Present, In Submission
+          Aug 2025 - Present, CCF-A In Submission
         description: | # this will include new lines to allow paragraphs
           Authors: *Rong Fu*, *Chunlei Meng*, ***Shuo Yin***, *Zijian Zhang*, *Yingrui Ji*, *Tianxiang Xu*, *Chenhao Wang*, *Weizhi Tang*, *Simon James Fong*
           
@@ -227,7 +227,7 @@ content:
             icon: ai ai-arxiv
             url: https://arxiv.org/abs/
         quote: >
-          Aug 2025 - Present, In Submission
+          Aug 2025 - Present, CCF-A In Submission
         description: | # this will include new lines to allow paragraphs
           Authors: *Rong Fu*, *Chunlei Meng*, ***Shuo Yin***, *Zijian Zhang*, *Weizhi Tang*, *Shaobo Wang*, *Youjin Wang*, *Simon James Fong*
           
@@ -247,7 +247,7 @@ content:
             icon: ai ai-arxiv
             url: https://arxiv.org/abs/
         quote: >
-          Jul 2025 - Present, In Submission
+          Jul 2025 - Present, CCF-A In Submission
         description: | # this will include new lines to allow paragraphs
           Authors: *Haidong Kang*, ***Shuo Yin***, *Huiquan Zhang*
           
