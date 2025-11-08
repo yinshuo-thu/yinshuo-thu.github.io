@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Shuo Yin (尹硕)
-title: Quantitative Researcher & LLM Engineer
+title: Quantitative Researcher
 email: yinelon@gmail.com
 # email_title: Email (Email title override)
 phone: (+86) 15690129730
@@ -51,11 +51,11 @@ about_profile_image: assets/head.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am currently pursuing a Master's in Finance at Tsinghua University, having completed my Bachelor's degree in Engineering at Shanghai Jiao Tong University. My undergraduate academic journey spans multiple fields, including computer vision, natural language processing, and time series analysis, with publications in these areas.
 
-  As a Quantitative Research Intern now, I apply deep learning techniques to quantitative modeling and factor discovery. With great enthusiasm and confidence in the development of LLM and AI technologies, I actively keep pace with the latest AI advancements.
+  I apply deep learning techniques to quantitative modeling and factor discovery. With strong enthusiasm and confidence in the rapid development of LLMs and AI technologies, I actively keep up with the latest advancements in the field.
 
-  I am open to opportunities in Quantitative Research (QR) and Large Language Models (LLM), and I’m always excited to connect with others, whether to collaborate or just for a friendly chat. Feel free to reach out to me via WeChat (Elon\_Yin) or email at [yinelon@gmail.com](mailto:yinelon@gmail.com). 
+  I am open to opportunities in Quantitative Research, and I’m always excited to connect with others, whether to collaborate or just for a friendly chat. Feel free to reach out to me via WeChat (Elon\_Yin) or email at [yinelon@gmail.com](mailto:yinelon@gmail.com). 
   
-  For more detailed information about my background and experience, you can download my bilingual resume here: [Chinese & English Resume](assets/Resume-ShuoYin-1101-pub.pdf).
+  For more detailed information about my background and experience, you can download my bilingual resume here: [Chinese & English Resume](assets/Resume-ShuoYin-1108.pdf).
 
 
 content:
@@ -80,7 +80,7 @@ content:
           
           **Core Courses:** Data Structure (A), Methods in Mathematical Physics (A), Biostatistics (A-), Medical Robot Control (A)
           
-          **Research:** Multimodal LLM (AAAI, ICLR, CVPR); Financial Time Series (SCI Q2 journal); Agent, Reinforcement Learning (CCF-B conf.)
+          **Research:** Multimodal LLM (ICLR, CVPR, RECOMB); Financial Time Series (SCI Q2 journal); Agent, Reinforcement Learning (CCF-B conf.)
   - title: Internship Experience
     layout: list
     content:
@@ -144,6 +144,23 @@ content:
           Improved strategy generation beyond baseline by over 10%, with strategy performance close to top-tier LLMs (e.g., DeepSeek-R1)
 
           ![TS-Agent Framework](assets/TS-Agent.png)
+      - layout: left
+        border: weak
+        title: "QuantEval: A Benchmark for Financial Quantitative Tasks in Large Language Models"
+        link: /assets/QuantEval.pdf
+        link_text: Paper
+        additional_links:
+          - title: Paper
+            icon: fas fa-file-pdf
+            url: /assets/QuantEval.pdf
+        quote: >
+          Sep 2025 - Present, In Submission
+        description: | # this will include new lines to allow paragraphs
+          Authors: *Zhaolu Kang*, *Junhao Gong*, *Wenqing Hu*, ***Shuo Yin***, *Zhicheng Fang*, *Yingjie He*, *Rong Fu*, *Eric Hanchen Jiang*, *Leqi Zheng*, *Xi Yang*, *Xiaoyou Chen*, *Richeng Xuan*
+          
+          QuantEval is a new benchmark designed to evaluate Large Language Models (LLMs) in financial quantitative tasks. It assesses three areas: knowledge-based question answering, quantitative reasoning, and quantitative strategy coding. The benchmark uses data from real markets, public sources, and synthetic scenarios to reflect real-world challenges. Tests on many top LLMs show major performance gaps. To address this, we apply supervised fine-tuning and reinforcement learning to improve results.
+
+          ![QuantEval Framework](assets/QuantEval.png)
       - layout: left
         border: weak
         title: "<img src='assets/bagelscore_logo.png' alt='BagelScore' style='height: 24px; margin-right: 8px; vertical-align: middle;'>BagelScore: Visual-Language Evaluation Made Easy"
