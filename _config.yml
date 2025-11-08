@@ -79,8 +79,6 @@ content:
           **Awards:** Outstanding Graduate, Merit Student Award, First Class Academic Scholarship
           
           **Core Courses:** Data Structure (A), Methods in Mathematical Physics (A), Biostatistics (A-), Medical Robot Control (A)
-          
-          **Research:** Multimodal LLM (ICLR, CVPR, RECOMB); Financial Time Series (SCI Q2 journal); Agent, Reinforcement Learning (CCF-B conf.)
   - title: Internship Experience
     layout: list
     content:
@@ -266,7 +264,7 @@ content:
         quote: >
           Feb 2024 - Sept 2024, Published in Nonlinear Dynamics (SCI Q2)
         description: | # this will include new lines to allow paragraphs
-          Authors: *Feier Chen*, ***Shuo Yin* ***, *Jiahang Zhang*, *Yi Sha* & *Huaxiao Ji*
+          Authors: *Feier Chen*, ***Shuo Yin***, *Jiahang Zhang*, *Yi Sha* & *Huaxiao Ji*
 
           Based on MF-DFA and multi-peak analysis, the multifractality of LNG spot freight rates was verified, and factor signals were established, including spectral decomposition components, peak positions, and long-range correlation strength. Using methods such as LSTM, LNG futures return predictions were made, incorporating indicators like the Hurst exponent to achieve strategy switching and window smoothing. The backtest results showed an annualized return rate exceeding 36%.
       - layout: left
@@ -324,7 +322,7 @@ content:
       - **Chinese:** Native Speaker
 
       ## Hobbies & Interests
-      - **Sports:** Enjoy various sports, play basketball daily, currently learning tennis and badminton. Always happy to connect with workout buddies or sports partners! :)
+      - **Sports:** Enjoy various sports, play basketball and work out daily, currently learning tennis. Always happy to connect with workout buddies or sports partners! :)
 
 # Footer
 footer_show_references: false
