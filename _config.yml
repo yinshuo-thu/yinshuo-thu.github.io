@@ -49,13 +49,11 @@ googlescholar_username:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: assets/head.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am currently pursuing a Master's in Finance at Tsinghua University, having completed my Bachelor's degree in Engineering at Shanghai Jiao Tong University. My undergraduate academic journey spans multiple fields, including computer vision, natural language processing, and time series analysis. These experiences continue to inspire and inform my current work.
+  I am currently pursuing a Master's in Finance at Tsinghua University, after earning my Bachelor's in Engineering from Shanghai Jiao Tong University. My undergraduate studies spanned computer vision, NLP, and time series analysis, which now influence my work in quantitative modeling and factor discovery using deep learning.
 
-  Now I am applying deep learning techniques to quantitative modeling and factor discovery. Also, with strong enthusiasm and confidence in the rapid development of LLMs and AI technologies, I actively keep up with the latest advancements in the field.
+  With a strong passion for the rapid advancements in LLMs and AI technologies, I stay up-to-date with the latest developments in the field. I am open to opportunities in Quantitative Research and welcome connections for collaboration or discussion.
 
-  I am open to opportunities in Quantitative Research, and I’m always excited to connect with others, whether to collaborate or just for a friendly chat. Feel free to reach out to me via WeChat (Elon\_Yin) or email at [yinelon@gmail.com](mailto:yinelon@gmail.com). 
-  
-  For more detailed information about my background and experience, you can download my bilingual resume here: [Chinese & English Resume](assets/Resume-ShuoYin-1108.pdf).
+  Feel free to reach out via WeChat (Elon\_Yin) or email at [yinelon@gmail.com](mailto:yinelon@gmail.com). For more details, you can download my bilingual resume [here](assets/Resume-ShuoYin-1108.pdf).
 
 
 content:
@@ -79,6 +77,8 @@ content:
           **Awards:** Outstanding Graduate, Merit Student Award, First Class Academic Scholarship
           
           **Core Courses:** Data Structure (A), Methods in Mathematical Physics (A), Biostatistics (A-), Medical Robot Control (A)
+          
+          **Teaching Assistant:** <img src='assets/NYU_SH.png' alt='NYU Shanghai' style='height: 16px; margin-right: 4px; vertical-align: middle;'>NYU Shanghai - Recommender Systems and Machine Learning
   - title: Internship Experience
     layout: list
     content:
