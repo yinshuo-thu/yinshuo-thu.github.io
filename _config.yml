@@ -158,26 +158,6 @@ content:
           ![QuantEval Framework](assets/QuantEval.png)
       - layout: left
         border: weak
-        title: "<img src='assets/bagelscore_logo.png' alt='BagelScore' style='height: 24px; margin-right: 8px; vertical-align: middle;'>BagelScore: Visual-Language Evaluation Made Easy"
-        link: https://github.com/AIGeeksGroup/BagelScore
-        link_text: GitHub Repository
-        additional_links:
-          - title: ""
-            icon: fab fa-github
-            url: https://github.com/AIGeeksGroup/BagelScore
-          - title: arXiv
-            icon: ai ai-arxiv
-            url: https://arxiv.org/abs/
-        quote: >
-          Sep 2025 - Present, CCF-A In Submission
-        description: | # this will include new lines to allow paragraphs
-          Authors: ***Shuo Yin***, *Biao Wu*, *Zeyu Zhang*, *Huacan Wang*, *Rui Xu*, *Ronghao Chen*, *Meng Fang*, *Ling Chen*, *Hao Tang*
-          
-          This research introduces two new evaluation metrics for multimodal learning: **BagelScore**, which improves image-text alignment by leveraging unified multimodal models, and **EditingScore**, designed to assess image editing quality based on transformation difficulty in generative models. These metrics address the limitations of existing approaches, offering a more principled, reasoning-based evaluation.
-          
-          ![BagelScore Framework](assets/bagelscore.png)
-      - layout: left
-        border: weak
         title: "AlphaMaster: Comprehensive Alpha Discovery and Agent Implementation"
         link: https://github.com/yinshuo-thu/AlphaMaster
         link_text: GitHub Repository
