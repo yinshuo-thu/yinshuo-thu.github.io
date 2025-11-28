@@ -104,6 +104,7 @@ content:
           Engineered ProQ model for automated data screening on Ling LLM; fine-tuned quality-filtering LLMs and streamlined the pipeline
           - **Data Screening Model**: Built a custom agent-based data screening and harmonization model (ProQ), pre-screening data using metrics like PPL and iteratively selecting representative data for fine-tuning quality-filtering models. Post-trained Ling MOE Lite on ~3M optimized data, improving language understanding and code completion by over 1%
           - **Signal-Based Data Filters**: Developed rule- and model-based operators to identify low-quality data using targeted signals
+          - **Technical Report**: Contributed to [Ling 2.0 Technical Report](https://arxiv.org/abs/2510.22115) - Every Activation Boosted: Scaling General Reasoner to 1 Trillion Open Language Foundation
 
           ![ProQ Framework](assets/ProQ.png)
       - layout: left
