@@ -81,18 +81,6 @@ content:
     layout: list
     content:
       - layout: left
-        title: "<img src='assets/lingjun.png' alt='Lingjun Investment' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Lingjun Investment"
-        sub_title: Quantitative Research Intern • Core Stock Team
-        caption: Beijing • Aug 2025 - Nov 2025
-        link: 
-        quote:
-        description: | # this will include new lines to allow paragraphs
-          Worked primarily on model research and strategy development for A-share equities in the core stock team
-          
-          - **Machine Learning Cross-Sectional Forecasting**: Leveraged a 1,000+ alpha-factor library for China A-share equities; built tree-based and deep learning models with rolling training around key trading dates, and delivered >10% improvement over the baseline. The best model achieved 40%+ annualized long-only return in backtests and was deployed to live trading
-          
-          - **Deep Learning Time-Series Strategies**: Built end-to-end time-series pipelines, implemented multiple baselines and a stacking ensemble; focused on architecture optimization, loss function design, and attention mechanisms, with hyperparameter tuning and model combination achieving 50%+ annualized return in backtests. Several baseline models were deployed to live trading
-      - layout: left
         title: "<img src='assets/minghong.png' alt='Minghong Investment' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Minghong Investment"
         sub_title: Quantitative Research Intern • Crypto HFT
         caption: Shanghai • Dec 2025 - Present 
@@ -104,6 +92,18 @@ content:
           - **End-to-End Return Forecasting Pipeline**: Developed an end-to-end return forecasting pipeline for highly liquid crypto perpetual futures by converting L2 order book data into time-series inputs; leveraged multi-scale convolutional feature extraction and a regression head for prediction
           
           - **Model Architecture Optimization**: Optimized the model architecture to improve training stability and inference efficiency; extended to a multi-task setup and used attention to propagate short-term signals into longer-horizon forecasts, supporting real-time monitoring for market-making
+      - layout: left
+        title: "<img src='assets/lingjun.png' alt='Lingjun Investment' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Lingjun Investment"
+        sub_title: Quantitative Research Intern • Core Stock Team
+        caption: Beijing • Aug 2025 - Nov 2025
+        link: 
+        quote:
+        description: | # this will include new lines to allow paragraphs
+          Worked primarily on model research and strategy development for A-share equities in the core stock team
+          
+          - **Machine Learning Cross-Sectional Forecasting**: Leveraged a 1,000+ alpha-factor library for China A-share equities; built tree-based and deep learning models with rolling training around key trading dates, and delivered >10% improvement over the baseline. The best model achieved 40%+ annualized long-only return in backtests and was deployed to live trading
+          
+          - **Deep Learning Time-Series Strategies**: Built end-to-end time-series pipelines, implemented multiple baselines and a stacking ensemble; focused on architecture optimization, loss function design, and attention mechanisms, with hyperparameter tuning and model combination achieving 50%+ annualized return in backtests. Several baseline models were deployed to live trading
       - layout: left
         title: "<img src='assets/ant.jpg' alt='Ant Group' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Ant Group (Alipay)"
         sub_title: LLM Algorithm Intern
