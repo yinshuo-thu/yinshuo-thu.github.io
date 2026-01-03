@@ -82,11 +82,13 @@ content:
     content:
       - layout: left
         title: "<img src='assets/minghong.png' alt='Minghong Investment' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Minghong Investment"
-        sub_title: Quantitative Research Intern • Crypto HFT
+        sub_title: Quantitative Research Intern
         caption: Shanghai • Dec 2025 - Present 
         link: 
         quote:
         description: | # this will include new lines to allow paragraphs
+          **Crypto HFT**
+          
           Conducted research on crypto machine learning, market-making and arbitrage strategies in the overseas HFT prop trading team
           
           - **End-to-End Return Forecasting Pipeline**: Developed an end-to-end return forecasting pipeline for highly liquid crypto perpetual futures by converting L2 order book data into time-series inputs; leveraged multi-scale convolutional feature extraction and a regression head for prediction
@@ -94,12 +96,14 @@ content:
           - **Model Architecture Optimization**: Optimized the model architecture to improve training stability and inference efficiency; extended to a multi-task setup and used attention to propagate short-term signals into longer-horizon forecasts, supporting real-time monitoring for market-making
       - layout: left
         title: "<img src='assets/lingjun.png' alt='Lingjun Investment' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Lingjun Investment"
-        sub_title: Quantitative Research Intern • Core Stock Team
+        sub_title: Quantitative Research Intern
         caption: Beijing • Aug 2025 - Nov 2025
         link: 
         quote:
         description: | # this will include new lines to allow paragraphs
-          Worked primarily on model research and strategy development for A-share equities in the core stock team
+          **Stock Team**
+          
+          Worked primarily on model research and strategy development for A-share equities in the stock team
           
           - **Machine Learning Cross-Sectional Forecasting**: Leveraged a 1,000+ alpha-factor library for China A-share equities; built tree-based and deep learning models with rolling training around key trading dates, and delivered >10% improvement over the baseline. The best model achieved 40%+ annualized long-only return in backtests and was deployed to live trading
           
