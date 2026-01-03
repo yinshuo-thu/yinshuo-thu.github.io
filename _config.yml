@@ -82,18 +82,28 @@ content:
     content:
       - layout: left
         title: "<img src='assets/lingjun.png' alt='Lingjun Investment' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Lingjun Investment"
-        sub_title: Quantitative Research Intern
-        caption: Beijing • Aug 2025 - Present
+        sub_title: Quantitative Research Intern • Core Stock Team
+        caption: Beijing • Aug 2025 - Nov 2025
         link: 
         quote:
         description: | # this will include new lines to allow paragraphs
-          Machine Learning Cross-Sectional Model: Built LightGBM and MLP models to predict cross-sectional returns
-          - **LightGBM** (AR 42%): LightGBM with 1k+ Alpha factor library for A-shares; integrate GAM for nonlinear main effects and EFB for high-dimensional interactions
-          - **MLP**(AR 48.2%): MLP with TabNet-style feature attention and adaptive DropPath for overfitting prevention; hyperparameter tuning (epochs, LR, architecture)
+          Worked primarily on model research and strategy development for A-share equities in the core stock team
           
-          Deep Learning Time Series Strategy: Developed GRU and Transformer baselines, with MoE combination attempts
-          - **GRU**(AR 57%): Nonlinear input projection (linear mapping, LayerNorm, GELU); residual bidirectional GRU encoding, temporal attention aggregation, and MLP output
-          - **Transformer**(AR 44%): Linear projection with sinusoidal-cosine positional encoding; Encoder-Only architecture with ProbSparse self-attention and multi-scale decomposition; mixed-precision training and gradient norm clipping.
+          - **Machine Learning Cross-Sectional Forecasting**: Leveraged a 1,000+ alpha-factor library for China A-share equities; built tree-based and deep learning models with rolling training around key trading dates, and delivered >10% improvement over the baseline. The best model achieved 40%+ annualized long-only return in backtests and was deployed to live trading
+          
+          - **Deep Learning Time-Series Strategies**: Built end-to-end time-series pipelines, implemented multiple baselines and a stacking ensemble; focused on architecture optimization, loss function design, and attention mechanisms, with hyperparameter tuning and model combination achieving 50%+ annualized return in backtests. Several baseline models were deployed to live trading
+      - layout: left
+        title: "<img src='assets/minghong.png' alt='Minghong Investment' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Minghong Investment"
+        sub_title: Quantitative Research Intern • Crypto HFT
+        caption: Shanghai • Dec 2025 - Present 
+        link: 
+        quote:
+        description: | # this will include new lines to allow paragraphs
+          Conducted research on crypto machine learning, market-making and arbitrage strategies in the overseas HFT prop trading team
+          
+          - **End-to-End Return Forecasting Pipeline**: Developed an end-to-end return forecasting pipeline for highly liquid crypto perpetual futures by converting L2 order book data into time-series inputs; leveraged multi-scale convolutional feature extraction and a regression head for prediction
+          
+          - **Model Architecture Optimization**: Optimized the model architecture to improve training stability and inference efficiency; extended to a multi-task setup and used attention to propagate short-term signals into longer-horizon forecasts, supporting real-time monitoring for market-making
       - layout: left
         title: "<img src='assets/ant.jpg' alt='Ant Group' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Ant Group (Alipay)"
         sub_title: LLM Algorithm Intern
@@ -173,24 +183,6 @@ content:
           
           Integrated Agents, Genetic Algorithms, and Flow Networks to produce diversified alpha factors
           Developed factor alignment and filtering framework for A-shares and cryptocurrencies, implementing data cleansing, dual-chain dynamic iteration, and agent-based reporting
-      - layout: left
-        border: weak
-        title: "CtrlVSR: Controllable Video Super-Resolution via Motion-Aware Latent World Modeling"
-        link: /assets/CtrlVSR.pdf
-        link_text: Paper
-        additional_links:
-          - title: Paper
-            icon: fas fa-file-pdf
-            url: /assets/CtrlVSR.pdf
-          - title: arXiv
-            icon: ai ai-arxiv
-            url: https://arxiv.org/abs/
-        quote: >
-          Aug 2025 - Present, CCF-A In Submission
-        description: | # this will include new lines to allow paragraphs
-          Authors: *Rong Fu*, *Chunlei Meng*, ***Shuo Yin***, *Zijian Zhang*, *Yingrui Ji*, *Tianxiang Xu*, *Chenhao Wang*, *Weizhi Tang*, *Simon James Fong*
-          
-          **CtrlVSR** is a video super-resolution method that forecasts high-resolution frames by leveraging motion cues. The model encodes low-resolution frames and motion data, then generates enhanced outputs with controllable adjustments like sharpening or blur removal. CtrlVSR achieves superior results on 4K and 8K footage, offering flexibility without requiring ultra-high-resolution training data.
       - layout: left
         border: weak
         title: "EVR: Eyesight-Only Visual Representation for Recognition without Language"
