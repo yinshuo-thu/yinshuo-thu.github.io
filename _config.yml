@@ -200,7 +200,7 @@ content:
             icon: ai ai-arxiv
             url: https://arxiv.org/abs/
         quote: >
-          Aug 2025 - Present, CVPR In Submission
+          Aug 2025 - Present, CVPR 2026 In Submission
         description: | # this will include new lines to allow paragraphs
           Authors: *Rong Fu*, *Chunlei Meng*, ***Shuo Yin***, *Zijian Zhang*, *Weizhi Tang*, *Shaobo Wang*, *Youjin Wang*, *Simon James Fong*
           
@@ -220,7 +220,7 @@ content:
             icon: ai ai-arxiv
             url: https://arxiv.org/abs/
         quote: >
-          Jul 2025 - Present, CVPR In Submission
+          Jul 2025 - Present, CVPR 2026 In Submission
         description: | # this will include new lines to allow paragraphs
           Authors: *Haidong Kang*, ***Shuo Yin***, *Huiquan Zhang*
           
