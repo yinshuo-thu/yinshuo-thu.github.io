@@ -51,7 +51,7 @@ about_profile_image: assets/head.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am currently pursuing a Master's in Finance at Tsinghua University, after earning my Bachelor's in Engineering from Shanghai Jiao Tong University. My undergraduate studies spanned computer vision, NLP, and time series analysis, which now influence my work in quantitative modeling and factor discovery using deep learning.
 
-  I am open to opportunities in Quantitative Research and welcome connections for collaboration or discussion. Feel free to reach out via WeChat (Elon\_Yin) or email at [yinelon@gmail.com](mailto:yinelon@gmail.com). For more details, you can download my bilingual resume [here](assets/Resume-ShuoYin-1108.pdf).
+  I am open to opportunities in Quantitative Research and welcome connections for collaboration or discussion. Feel free to reach out via WeChat (yins156) or email at [yinelon@gmail.com](mailto:yinelon@gmail.com). For more details, you can download my bilingual resume [here](assets/Resume-ShuoYin-1108.pdf).
 
 
 content:
@@ -161,7 +161,7 @@ content:
             icon: fas fa-file-pdf
             url: /assets/QuantEval.pdf
         quote: >
-          Sep 2025 - Present, CCF-A In Submission
+          Sep 2025 - Present, ACL 2026 In Submission
         description: | # this will include new lines to allow paragraphs
           Authors: *Zhaolu Kang*, *Junhao Gong*, *Wenqing Hu*, ***Shuo Yin***, *Zhicheng Fang*, *Yingjie He*, *Rong Fu*, *Eric Hanchen Jiang*, *Leqi Zheng*, *Xi Yang*, *Xiaoyou Chen*, *Richeng Xuan*
           
@@ -178,7 +178,7 @@ content:
             icon: fab fa-github
             url: https://github.com/yinshuo-thu/AlphaMaster
         quote: >
-          Aug 2025 - Present, In Submission
+          Aug 2025 - Present, KBS In Submission
         description: | # this will include new lines to allow paragraphs
           
           Integrated Agents, Genetic Algorithms, and Flow Networks to produce diversified alpha factors
@@ -196,7 +196,7 @@ content:
             icon: ai ai-arxiv
             url: https://arxiv.org/abs/
         quote: >
-          Aug 2025 - Present, CCF-A In Submission
+          Aug 2025 - Present, CVPR In Submission
         description: | # this will include new lines to allow paragraphs
           Authors: *Rong Fu*, *Chunlei Meng*, ***Shuo Yin***, *Zijian Zhang*, *Weizhi Tang*, *Shaobo Wang*, *Youjin Wang*, *Simon James Fong*
           
@@ -216,7 +216,7 @@ content:
             icon: ai ai-arxiv
             url: https://arxiv.org/abs/
         quote: >
-          Jul 2025 - Present, CCF-A In Submission
+          Jul 2025 - Present, CVPR In Submission
         description: | # this will include new lines to allow paragraphs
           Authors: *Haidong Kang*, ***Shuo Yin***, *Huiquan Zhang*
           
