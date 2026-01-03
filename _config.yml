@@ -81,7 +81,7 @@ content:
     layout: list
     content:
       - layout: left
-        title: "<img src='assets/minghong.png' alt='Minghong Investment' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Minghong Investment"
+        title: "<img src='/assets/minghong.png' alt='Minghong Investment' style='height: 24px; margin-right: 8px; vertical-align: middle;'>Minghong Investment"
         sub_title: Quantitative Research Intern
         caption: Shanghai • Dec 2025 - Present 
         link: 
